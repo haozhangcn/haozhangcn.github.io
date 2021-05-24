@@ -22,39 +22,68 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to [CVPR 2020](http://cvpr2020.thecvf.com/).
-- **[Feb. 2020]** We will host the [ACM Multimedia Asia 2020](https://mmasia2020.org/) conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to [NeurIPS 2019](https://nips.cc/Conferences/2019).
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to [CVPR 2019](http://cvpr2019.thecvf.com/).
+- **[May 2020]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
 
 ## Publications
+### Journals
+- **A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks**
+  <br>
+  **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. 
+  <br>
+  *IEEE Transactions on Cognitive and Communications Networking* (Minor revision)
+  
+- **Detecting Small Objects in Thermal Images Using Single-Shot Detector**
+  <br>
+  **Hao Zhang**, Xianggong Hong, Li Zhu. 
+  <br>
+  *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
+  [[Page](https://doi.org/10.3103/S0146411621020097)]
 
-- **Mnemonics Training: Multi-Class Incremental Learning without Forgetting**
+- **Automatic Soil Desiccation Crack Recognition Using Deep Learning**
   <br>
-  **Yaoyao Liu**, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Bo Liu, and Bin Shi. 
   <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2020**.
+  *Geotechnique* 0 0:0, 1-13.
   <br>
-  [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+  [[Page](https://doi.org/10.1680/jgeot.20.P.091)]
+- **Recent progresses on object detection: a brief review**
+  <br>
+  **Hao Zhang**, Xianggong Hong.
+  <br>
+  *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
+  <br>
+  [[Page](https://doi.org/10.1007/s11042-019-07898-2)]
 
-- **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
-  <br>
-  Xinzhe Li, Qianru Sun, **Yaoyao Liu**, Shibao Zheng, Qin Zhou, Tat-Seng Chua, Bernt Schiele
-  <br>
-  33rd Conference on Neural Information Processing Systems. **NeurIPS 2019**.
-  <br>
-  [[PDF](http://papers.nips.cc/paper/9216-learning-to-self-train-for-semi-supervised-few-shot-classification.pdf)] [[Code](https://github.com/xinzheli1217/learning-to-self-train)]
-
-- **Meta-Transfer Learning for Few-Shot Learning**
-  <br>
-  Qianru Sun\*, **Yaoyao Liu\***, Tat-Seng Chua, Bernt Schiele
-  <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2019**.
-  <br>
-  [[PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_Meta-Transfer_Learning_for_Few-Shot_Learning_CVPR_2019_paper.pdf)] [[Code](https://github.com/yaoyao-liu/meta-transfer-learning)] [[Project](https://mtl.yyliu.net/)]
-
+  
 ## Services
+- Student Members: [IEEE](https://www.ieee.org/), [CCF](https://www.ccf.org.cn/), [IEEE ComSoc](https://www.comsoc.org/), [IEEE Computer Society](https://www.computer.org/).
+- Conference Reviewers: [WCSP 2020](http://www.ic-wcsp.org/)
+- Journal Reviewers: [IEEE Systems Journal](https://ieeesystemsjournal.org/), [IEEE Access](https://ieeeaccess.ieee.org/), [Electronics Letters](https://digital-library.theiet.org/content/journals/el)
 
-- Co-organizer: [ACM MM Asia 2020](https://mmasia2020.org/).
-- Conference Reviewers: [NeurIPS 2020](https://neurips.cc/Conferences/2020), and [CVPR 2020](http://cvpr2020.thecvf.com/).
-- Journal Reviewers: [T-PAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34), and [IJCV](https://www.springer.com/journal/11263).
+## Education
+- **Ph.D student**, Information and Communication Engineering, [NUAA]((http://www.nuaa.edu.cn/)), Now.
+
+- **M.Eng.**, Electrical and Communication Engineering, [Nanchang University](http://www.ncu.edu.cn/), June 2020.
+
+- **B.S.**, Internet of Things Engineering, [Nanchang University](http://www.ncu.edu.cn/), June 2017.
+
+## Awards and Honors
+- Outstanding Graduates of Nanchang University (4%), Jun., 2020.
+
+- The First Prize Graduate Scholarship of Nanchang University, May, 2020.
+
+- The First Prize Graduate Scholarship of Nanchang University, May, 2019.
+
+- The Second Prize Graduate Scholarship of Nanchang University, May, 2018.
+
+- The Third Prize of 12th Graduate Electronics Design Contest(Huazhong), Jul., 2017.
+
+- The First Prize Scholarship of Nanchang University, May, 2017.
+
+- The First Prize Scholarship of Nanchang University, Nov., 2016.
+
+- The Special Grade Scholarship of Nanchang University, Nov., 2015.
+
+- The First Prize Scholarship of Nanchang University, Nov., 2014.
+
+- The Second Prize Scholarship of Nanchang University, Apr., 2014.
