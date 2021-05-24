@@ -4,12 +4,21 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am now a Ph.D student under the supervision of Prof. [Fuhui Zhou](https://zhoufuhui1989.wixsite.com/new1)
+in [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/), 
+[Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn/). 
+I have just recieved a Master of Engineering degree from [Nanchang University](http://www.ncu.edu.cn/), 
+majoring in the Electrical and Communication Engineering. 
+Before that, I recieved the B.S. degree in the Internet of Things Engineering from [Nanchang University](http://www.ncu.edu.cn/) in 2017.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Deep Convolutional Neural Networks (DCNN)** is a class of artificial neural network with multiple layers between 
+  the input and output layers, most commonly applied to analyzing visual imagery.
+
+- **Signal Processing** includes Modulation Recognition (the task of classifying the modulation type of a received radio 
+  signal as a step towards understanding what type of communications scheme and emitter is present), 
+  Spectrum Sensing and Signal Identification.
 
 ## News
 
