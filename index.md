@@ -26,6 +26,12 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 
 ## Publications
 ### Journals
+- **Automatic Modulation Classification Using Involution based Residual Networks**
+  <br>
+  **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. 
+  <br>
+  Submitted to *IEEE Wireless Communications Letters*
+
 - **A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks**
   <br>
   **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. 
@@ -37,7 +43,8 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   **Hao Zhang**, Xianggong Hong, Li Zhu. 
   <br>
   *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
-  [[Page](https://doi.org/10.3103/S0146411621020097)]
+  <br>
+  [[Page](https://doi.org/10.3103/S0146411621020097)][[PDF](https://www.researchgate.net/publication/351592409_Detecting_Small_Objects_in_Thermal_Images_Using_Single-Shot_Detector)][[bib](files/zhang2021detecting.bib)]
 
 - **Automatic Soil Desiccation Crack Recognition Using Deep Learning**
   <br>
@@ -45,15 +52,30 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Geotechnique* 0 0:0, 1-13.
   <br>
-  [[Page](https://doi.org/10.1680/jgeot.20.P.091)]
+  [[Page](https://doi.org/10.1680/jgeot.20.P.091)][[bib](files/xu2020automatic.bib)]
+  
 - **Recent progresses on object detection: a brief review**
   <br>
   **Hao Zhang**, Xianggong Hong.
   <br>
   *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
   <br>
-  [[Page](https://doi.org/10.1007/s11042-019-07898-2)]
-
+  [[Page](https://doi.org/10.1007/s11042-019-07898-2)][[PDF](https://www.researchgate.net/publication/334061509_Recent_progresses_on_object_detection_a_brief_review)][[bib](files/zhang2019recent.bib)]
+  
+### Conferences
+- **Small Object Detection Based on Modified FSSD and Model Compression**
+  <br>
+  Qingcai Wang, **Hao Zhang**, Xianggong Hong, and Qinqin Zhou. 
+  <br>
+  *IEEE ICSIP 2021* (Accepted)
+  
+- **Infrared image segmentation for photovoltaic panels based on Res-UNet**
+  <br>
+  **Hao Zhang**, Xianggong Hong, Shifen Zhou, and Qingcai Wang. 
+  <br>
+  *Chinese Conference on Pattern Recognition and Computer Vision (PRCV)*. Springer, Cham, 2019.
+  <br>
+  [[Page](https://doi.org/10.1007/978-3-030-31654-9_52)][[PDF](https://www.researchgate.net/publication/336917932_Infrared_Image_Segmentation_for_Photovoltaic_Panels_Based_on_Res-UNet)][[bib](files/zhang2019infrared.bib)]
   
 ## Services
 - Student Members: [IEEE](https://www.ieee.org/), [CCF](https://www.ccf.org.cn/), [IEEE ComSoc](https://www.comsoc.org/), [IEEE Computer Society](https://www.computer.org/).
