@@ -1,137 +1,109 @@
-# The Minimal Light Theme
+# Hao Zhang
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-academic?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
-[![gem](https://img.shields.io/gem/v/minimal-light?style=flat-square&logo=rubygems&color=E9573F)](https://rubygems.org/gems/minimal-light)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg?style=flat-square&logo=jekyll)](https://jekyllrb.com/)
-[![Build Status](https://img.shields.io/travis/com/yaoyao-liu/minimal-light?style=flat-square&logo=travis-ci&color=3EAAAF)](https://travis-ci.com/yaoyao-liu/minimal-light)
+## About Me
 
-\[[Demo the theme](https://minimal-light.yyliu.net/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
- 
-*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
-<br>
-*Feel free to use and share the source code anywhere you like.*
+I am now a Ph.D student under the supervision of Prof. [Fuhui Zhou](https://zhoufuhui1989.wixsite.com/new1)
+in [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/), 
+[Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn/). 
+I have just recieved a Master of Engineering degree from [Nanchang University](http://www.ncu.edu.cn/), 
+majoring in the Electrical and Communication Engineering. 
+Before that, I recieved the B.S. degree in the Internet of Things Engineering from [Nanchang University](http://www.ncu.edu.cn/) in 2017.
 
-## Features
+## Research Interests
 
-- Simple and elegant personal homepage theme
-- Jekyll theme, deploy automatically by GitHub pages
-- Basic Search Engine Optimization
-- Mobile friendly
-- Support Markdown 
-- Support dark mode
+- **Deep Convolutional Neural Networks (DCNN)** is a class of artificial neural network with multiple layers between 
+  the input and output layers, most commonly applied to analyzing visual imagery.
 
-## Usage
+- **Signal Processing** includes Modulation Recognition (the task of classifying the modulation type of a received radio 
+  signal as a step towards understanding what type of communications scheme and emitter is present), 
+  Spectrum Sensing and Signal Identification.
 
-### Using on GitHub 
+## News
 
-To use this theme, add the following to your repository's `_config.yml`:
+- **[May 2020]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
 
-```yaml
-remote_theme: yaoyao-liu/minimal-light
-```
+## Publications [[full](publications.html)]
+### Journals
+- **Automatic Modulation Classification Using Involution based Residual Networks**
+  <br>
+  **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. 
+  <br>
+  Submitted to *IEEE Wireless Communications Letters*
 
-Please note that adding the above line will directly apply all the default settings in this repository to yours.
+- **A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks**
+  <br>
+  **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. 
+  <br>
+  *IEEE Transactions on Cognitive and Communications Networking* (Minor revision)
+  
+- **Detecting Small Objects in Thermal Images Using Single-Shot Detector**
+  <br>
+  **Hao Zhang**, Xianggong Hong, Li Zhu. 
+  <br>
+  *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
+  <br>
+  [[Page](https://doi.org/10.3103/S0146411621020097)][[PDF](https://www.researchgate.net/publication/351592409_Detecting_Small_Objects_in_Thermal_Images_Using_Single-Shot_Detector)][[bib](files/zhang2021detecting.bib)]
 
-If you hope to edit any files (e.g., `index.md`), you still need to copy them to your repository.
+- **Automatic Soil Desiccation Crack Recognition Using Deep Learning**
+  <br>
+  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Bo Liu, and Bin Shi. 
+  <br>
+  *Geotechnique* 0 0:0, 1-13.
+  <br>
+  [[Page](https://doi.org/10.1680/jgeot.20.P.091)][[bib](files/xu2020automatic.bib)]
+  
+- **Recent progresses on object detection: a brief review**
+  <br>
+  **Hao Zhang**, Xianggong Hong.
+  <br>
+  *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
+  <br>
+  [[Page](https://doi.org/10.1007/s11042-019-07898-2)][[PDF](https://www.researchgate.net/publication/334061509_Recent_progresses_on_object_detection_a_brief_review)][[bib](files/zhang2019recent.bib)]
+  
+### Conferences
+- **Small Object Detection Based on Modified FSSD and Model Compression**
+  <br>
+  Qingcai Wang, **Hao Zhang**, Xianggong Hong, and Qinqin Zhou. 
+  <br>
+  *IEEE ICSIP 2021* (Accepted)
+  
+- **Infrared image segmentation for photovoltaic panels based on Res-UNet**
+  <br>
+  **Hao Zhang**, Xianggong Hong, Shifen Zhou, and Qingcai Wang. 
+  <br>
+  *Chinese Conference on Pattern Recognition and Computer Vision (PRCV)*. Springer, Cham, 2019.
+  <br>
+  [[Page](https://doi.org/10.1007/978-3-030-31654-9_52)][[PDF](https://www.researchgate.net/publication/336917932_Infrared_Image_Segmentation_for_Photovoltaic_Panels_Based_on_Res-UNet)][[bib](files/zhang2019infrared.bib)]
+  
+## Services
+- Student Members: [IEEE](https://www.ieee.org/), [CCF](https://www.ccf.org.cn/), [IEEE ComSoc](https://www.comsoc.org/), [IEEE Computer Society](https://www.computer.org/).
+- Conference Reviewers: [WCSP 2020](http://www.ic-wcsp.org/)
+- Journal Reviewers: [IEEE Systems Journal](https://ieeesystemsjournal.org/), [IEEE Access](https://ieeeaccess.ieee.org/), [Electronics Letters](https://digital-library.theiet.org/content/journals/el)
 
-You may also fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
+## Education
+- **Ph.D student**, Information and Communication Engineering, [NUAA]((http://www.nuaa.edu.cn/)), Now.
 
-#### Using a custom domain on GitHub
+- **M.Eng.**, Electrical and Communication Engineering, [Nanchang University](http://www.ncu.edu.cn/), June 2020.
 
-Add a `CNAME` DNS record to your domain as follows:
-```
-Host: whatever you want. e.g., "www" 
-Target / Canonical name: your-username.github.io.
-TTL: 10 min
-```
-You may also add an `A` DNS record instead of the `CNAME` record as follows:
-```
-Host: whatever you want. e.g., "www" or "@"
-IP: 185.199.108.153
-    185.199.109.153
-    185.199.110.153
-    185.199.111.153
-TTL: 10 min
-```
+- **B.S.**, Internet of Things Engineering, [Nanchang University](http://www.ncu.edu.cn/), June 2017.
 
-Then, change the contents of the [CNAME](./CNAME) file in this repository to your domain.
+## Awards and Honors
+- Outstanding Graduates of Nanchang University (4%), Jun., 2020.
 
-### Using Locally with Jekyll
+- The First Prize Graduate Scholarship of Nanchang University, May, 2020.
 
-*You need to install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) fisrt.*
+- The First Prize Graduate Scholarship of Nanchang University, May, 2019.
 
-Clone this repository:
+- The Second Prize Graduate Scholarship of Nanchang University, May, 2018.
 
-```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
-cd minimal-light
-```
-Install and run:
+- The Third Prize of 12th Graduate Electronics Design Contest(Huazhong), Jul., 2017.
 
-```bash
-bundle install
-bundle exec jekyll server
-```
-View the live page using `localhost`:
-<http://localhost:4000>. You can get the html files in `_site` folder.
+- The First Prize Scholarship of Nanchang University, May, 2017.
 
-## Customizing
+- The First Prize Scholarship of Nanchang University, Nov., 2016.
 
-### Configuration variables
+- The Special Grade Scholarship of Nanchang University, Nov., 2015.
 
-The Minimal Light theme will respect the following variables, if set in your site's `_config.yml`:
+- The First Prize Scholarship of Nanchang University, Nov., 2014.
 
-  ```yaml
-title: Your Name
-affiliation: Your Affiliation
-email: yourname (at) example.edu
-google_scholar: https://scholar.google.com/
-github_link: https://github.com/yaoyao-liu/minimal-light
-linkedin: https://www.linkedin.com/
-avatar: ./assets/img/avatar.png
-google_analytics: UA-111540567-4
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light.yyliu.net/
-remote_theme: yaoyao-liu/minimal-light
-  ```
-### Editing `index.md`
-
-Create `index.md` and add your personal information (e.g. publications, research).
-
-### Stylesheet
-
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-
-    ```scss
-    ---
-    ---
-
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. [Copy the original template](https://github.com/yaoyao-liu/minimal-light/blob/master/_layouts/homepage.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/homepage.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
-
-## License
-
-This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
-
-## Acknowledgements
-
-Our project uses the source code from the following repositories:
-
-* [pages-themes/minimal](https://github.com/pages-themes/minimal)
-
-* [orderedlist/minimal](https://github.com/orderedlist/minimal)
+- The Second Prize Scholarship of Nanchang University, Apr., 2014.

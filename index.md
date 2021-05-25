@@ -24,7 +24,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 
 - **[May 2020]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
 
-## Publications
+## Publications [[full](publications.html)]
 ### Journals
 - **Automatic Modulation Classification Using Involution based Residual Networks**
   <br>
