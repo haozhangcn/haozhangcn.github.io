@@ -21,12 +21,12 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   Spectrum Sensing and Signal Identification.
 
 ## News
-
-- **[May 2020]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
+- **[31st May 2020]** Our paper about automatic modulation classification is submitted to  [[arxiv](https://arxiv.org/abs/2105.15037)].
+- **[14th May 2020]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
 
 ## Publications [[more](publications.html)]
 ### Journals
-- **Automatic Modulation Classification Using Involution based Residual Networks**
+- **Automatic Modulation Classification Using Involution Enabled Residual Networks**
   <br>
   **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. 
   <br>
