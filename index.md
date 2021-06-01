@@ -37,6 +37,8 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. 
   <br>
   *IEEE Transactions on Cognitive and Communications Networking* (Minor revision)
+  <br>
+  [[PDF](https://arxiv.org/pdf/2105.15037.pdf)]
   
 - **Detecting Small Objects in Thermal Images Using Single-Shot Detector**
   <br>
