@@ -26,6 +26,12 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 
 ## Publications [[more](publications.html)]
 ### Journals
+- **Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence**
+  <br>
+  Jin-Jian Xu, **Hao Zhang** (Co-first author), Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi
+  <br>
+  Submitted to *Engineering Geology*
+  
 - **Automatic Modulation Classification Using Involution Enabled Residual Networks**
   <br>
   **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. 
@@ -38,7 +44,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *IEEE Transactions on Cognitive and Communications Networking* (Minor revision)
   <br>
-  [[PDF](https://arxiv.org/pdf/2105.15037.pdf)]
+  [[arxiv](https://arxiv.org/abs/2105.15037)][[PDF](https://arxiv.org/pdf/2105.15037.pdf)]
   
 - **Detecting Small Objects in Thermal Images Using Single-Shot Detector**
   <br>
