@@ -28,9 +28,9 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 ### Journals
 - **Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence**
   <br>
-  Jin-Jian Xu, **Hao Zhang** (Co-first author), Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi
+  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi
   <br>
-  Submitted to *Engineering Geology*
+  Submitted to *Water Resources Research*
   
 - **Automatic Modulation Classification Using Involution Enabled Residual Networks**
   <br>

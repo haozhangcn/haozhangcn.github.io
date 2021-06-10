@@ -4,7 +4,7 @@ layout: homepage
 
 ## Publications
 ### Preprints
-1.  Jin-Jian Xu, **Hao Zhang** (Co-first author), Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi. "Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence", *Engineering Geology* (Under Review)
+1.  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi. "Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence", *Water Resources Research* (Under Review)
 2. **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. "Automatic Modulation Classification Using Involution Enabled Residual Networks", *IEEE Wireless Communications Letters* (Under Review)
 1. **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. "A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks", *IEEE Transactions on Cognitive and Communications Networking* (Minor revision)  [[arxiv](https://arxiv.org/abs/2105.15037)]
 
