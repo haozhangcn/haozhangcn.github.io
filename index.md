@@ -43,7 +43,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. 
   <br>
-  *IEEE Transactions on Cognitive and Communications Networking* (Minor revision)
+  *IEEE Transactions on Cognitive and Communications Networking* (Accepted)
   <br>
   [[arxiv](https://arxiv.org/abs/2105.15037)][[PDF](https://arxiv.org/pdf/2105.15037.pdf)]
   
