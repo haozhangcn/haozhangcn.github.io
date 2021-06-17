@@ -21,8 +21,9 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   Spectrum Sensing and Signal Identification.
 
 ## News
-- **[31st May 2020]** Our paper about automatic modulation classification is submitted to  [[arxiv](https://arxiv.org/abs/2105.15037)].
-- **[14th May 2020]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
+- **[16th June 2021]** Our paper about automatic modulation classification [[arxiv](https://arxiv.org/abs/2105.15037)] is accepted by *IEEE TCCN*.
+- **[31st May 2021]** Our paper about automatic modulation classification is submitted to  [[arxiv](https://arxiv.org/abs/2105.15037)].
+- **[14th May 2021]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
 
 ## Publications [[more](publications.html)]
 ### Journals
