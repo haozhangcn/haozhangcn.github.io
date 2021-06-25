@@ -43,9 +43,9 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. 
   <br>
-  *IEEE Transactions on Cognitive and Communications Networking* (Accepted)
+  *IEEE Transactions on Cognitive and Communications Networking* (Early Access)
   <br>
-  [[arxiv](https://arxiv.org/abs/2105.15037)][[PDF](https://arxiv.org/pdf/2105.15037.pdf)]
+  [[IEEE Xplore](https://doi.org/10.1109/TCCN.2021.3091730)][[arxiv](https://arxiv.org/abs/2105.15037)][[PDF](https://arxiv.org/pdf/2105.15037.pdf)]
   
 - **Detecting Small Objects in Thermal Images Using Single-Shot Detector**
   <br>
@@ -53,7 +53,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
   <br>
-  [[Page](https://doi.org/10.3103/S0146411621020097)][[PDF](https://www.researchgate.net/publication/351592409_Detecting_Small_Objects_in_Thermal_Images_Using_Single-Shot_Detector)][[bib](files/zhang2021detecting.bib)]
+  [[Springer](https://doi.org/10.3103/S0146411621020097)][[PDF](https://www.researchgate.net/publication/351592409_Detecting_Small_Objects_in_Thermal_Images_Using_Single-Shot_Detector)][[bib](files/zhang2021detecting.bib)]
 
 - **Automatic Soil Desiccation Crack Recognition Using Deep Learning**
   <br>
@@ -69,7 +69,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
   <br>
-  [[Page](https://doi.org/10.1007/s11042-019-07898-2)][[PDF](https://www.researchgate.net/publication/334061509_Recent_progresses_on_object_detection_a_brief_review)][[bib](files/zhang2019recent.bib)]
+  [[Springer](https://doi.org/10.1007/s11042-019-07898-2)][[PDF](https://www.researchgate.net/publication/334061509_Recent_progresses_on_object_detection_a_brief_review)][[bib](files/zhang2019recent.bib)]
   
 ### Conferences
 - **Small Object Detection Based on Modified FSSD and Model Compression**
@@ -84,7 +84,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Chinese Conference on Pattern Recognition and Computer Vision (PRCV)*. Springer, Cham, 2019.
   <br>
-  [[Page](https://doi.org/10.1007/978-3-030-31654-9_52)][[PDF](https://www.researchgate.net/publication/336917932_Infrared_Image_Segmentation_for_Photovoltaic_Panels_Based_on_Res-UNet)][[bib](files/zhang2019infrared.bib)]
+  [[Springer](https://doi.org/10.1007/978-3-030-31654-9_52)][[PDF](https://www.researchgate.net/publication/336917932_Infrared_Image_Segmentation_for_Photovoltaic_Panels_Based_on_Res-UNet)][[bib](files/zhang2019infrared.bib)]
   
 ## Services
 - Student Members: [IEEE](https://www.ieee.org/), [CCF](https://www.ccf.org.cn/), [IEEE ComSoc](https://www.comsoc.org/), [IEEE Computer Society](https://www.computer.org/).
