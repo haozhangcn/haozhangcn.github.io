@@ -61,7 +61,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Geotechnique* 0 0:0, 1-13.
   <br>
-  [[Page](https://doi.org/10.1680/jgeot.20.P.091)][[bib](files/xu2020automatic.bib)]
+  [[ICE](https://doi.org/10.1680/jgeot.20.P.091)][[bib](files/xu2020automatic.bib)]
   
 - **Recent progresses on object detection: a brief review**
   <br>

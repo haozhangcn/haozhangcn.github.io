@@ -9,7 +9,7 @@ layout: homepage
 
 
 ### Journals
-1. **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. "[A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks](https://doi.org/10.1109/TCCN.2021.3091730)", *IEEE Transactions on Cognitive and Communications Networking* (Accepted)  [[arxiv](https://arxiv.org/abs/2105.15037)]
+1. **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. "[A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks](https://doi.org/10.1109/TCCN.2021.3091730)", *IEEE Transactions on Cognitive and Communications Networking* (Early Access)  [[arxiv](https://arxiv.org/abs/2105.15037)]
 2. **Hao Zhang**, Xianggong Hong, and Li Zhu. “[Detecting Small Objects in Thermal Images Using Single-Shot Detector](https://doi.org/10.3103/S0146411621020097)”, *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
 3. Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Bo Liu, and Bin Shi. “[Automatic Soil Desiccation Crack Recognition Using Deep Learning](https://doi.org/10.1680/jgeot.20.P.091)”, *Geotechnique* 0 0:0, 1-13.
 4. **Hao Zhang** and Xianggong Hong.“[Recent progresses on object detection: a brief review](https://doi.org/10.1007/s11042-019-07898-2)”, *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
