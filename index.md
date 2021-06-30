@@ -31,7 +31,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi
   <br>
-  Submitted to *Water Resources Research*
+  Submitted to *Engineering Geology*
   
 - **Automatic Modulation Classification Using Involution Enabled Residual Networks**
   <br>

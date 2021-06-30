@@ -3,9 +3,12 @@ layout: homepage
 ---
 
 ## Publications
+### Thesis
+1. 张浩. [快速高效小目标检测网络算法研究](https://kns.cnki.net/KCMS/detail/detail.aspx?dbname=CMFD202101&filename=1020056234.nh)[D].南昌大学,2020.
+
 ### Preprints
-1.  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi. "Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence", *Water Resources Research* (Under Review)
-2. **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. "Automatic Modulation Classification Using Involution Enabled Residual Networks", *IEEE Wireless Communications Letters* (Under Review)
+1.  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi. "Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence", *Engineering Geology* (Under Review)
+2. **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. "Automatic Modulation Classification Using Involution Enabled Residual Networks", *IEEE Wireless Communications Letters* (Minor revision)
 
 
 ### Journals
