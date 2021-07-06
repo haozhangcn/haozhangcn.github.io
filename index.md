@@ -27,9 +27,15 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 
 ## Publications [[more](publications.html)]
 ### Journals
+- **Artificial Intelligence, Big Data, and Blockchain in Food Safety: A Review**
+  <br>
+  Qinqin Zhou, **Hao Zhang**, and Suya Wang
+  <br>
+  Submitted to *Journal of Food Processing and Preservation*
+
 - **Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence**
   <br>
-  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, Bin Shi
+  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, and Bin Shi
   <br>
   Submitted to *Engineering Geology*
   
@@ -88,8 +94,8 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   
 ## Services
 - Student Members: [IEEE](https://www.ieee.org/), [CCF](https://www.ccf.org.cn/), [IEEE ComSoc](https://www.comsoc.org/), [IEEE Computer Society](https://www.computer.org/).
-- Conference Reviewers: [WCSP 2020](http://www.ic-wcsp.org/)
-- Journal Reviewers: [IEEE Systems Journal](https://ieeesystemsjournal.org/), [IEEE Access](https://ieeeaccess.ieee.org/), [Electronics Letters](https://digital-library.theiet.org/content/journals/el)
+- Conference Reviewers: [IEEE WCSP 2020](http://www.ic-wcsp.org/), [IEEE GLOBECOM 2021](https://globecom2021.ieee-globecom.org/)
+- Journal Reviewers: [IEEE Systems Journal](https://ieeesystemsjournal.org/), [IEEE Access](https://ieeeaccess.ieee.org/), [Electronics Letters](https://digital-library.theiet.org/content/journals/el), [Sensors](https://www.mdpi.com/journal/sensors), [Journal of Sensors](https://www.hindawi.com/journals/js/)
 
 ## Education
 - **Ph.D student**, Information and Communication Engineering, [NUAA]((http://www.nuaa.edu.cn/)), Now.
