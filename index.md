@@ -31,7 +31,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   Qinqin Zhou, **Hao Zhang**, and Suya Wang
   <br>
-  Submitted to *Journal of Food Processing and Preservation*
+  Submitted
 
 - **Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence**
   <br>
