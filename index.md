@@ -23,8 +23,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 ## News
 - **[31st July 2021]** Our paper "Automatic Modulation Classification Using Involution Enabled Residual Networks" is accepted by *IEEE WCL*.
 - **[16th June 2021]** Our paper about automatic modulation classification [[arxiv](https://arxiv.org/abs/2105.15037)] is accepted by *IEEE TCCN*.
-- **[31st May 2021]** Our paper about automatic modulation classification is submitted to  [[arxiv](https://arxiv.org/abs/2105.15037)].
-- **[14th May 2021]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
+- **[31st May 2021]** Our paper "A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks" is submitted to  [[arxiv](https://arxiv.org/abs/2105.15037)].
 
 ## Publications [[more](publications.html)]
 ### Journals
