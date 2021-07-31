@@ -21,6 +21,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   Spectrum Sensing and Signal Identification.
 
 ## News
+- **[31st July 2021]** Our paper "Automatic Modulation Classification Using Involution Enabled Residual Networks" is accepted by *IEEE WCL*.
 - **[16th June 2021]** Our paper about automatic modulation classification [[arxiv](https://arxiv.org/abs/2105.15037)] is accepted by *IEEE TCCN*.
 - **[31st May 2021]** Our paper about automatic modulation classification is submitted to  [[arxiv](https://arxiv.org/abs/2105.15037)].
 - **[14th May 2021]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
@@ -31,7 +32,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   Qinqin Zhou, **Hao Zhang**, and Suya Wang
   <br>
-  Submitted
+  Submitted to *International Journal of Food Engineering*
 
 - **Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence**
   <br>
@@ -43,7 +44,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. 
   <br>
-  Submitted to *IEEE Wireless Communications Letters*
+  *IEEE Wireless Communications Letters* (Accepted)
 
 - **A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks**
   <br>
