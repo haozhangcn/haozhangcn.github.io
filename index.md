@@ -27,6 +27,12 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 
 ## Publications [[more](publications.html)]
 ### Journals
+- **A Multi-Scale CNN Framework for Wireless Technique Classification in Beyond 5G Communications**
+  <br>
+  Lu Yuan, **Hao Zhang**, Ming Xu, Fuhui Zhou, and Qihui Wu
+  <br>
+  (Under Preparation)
+
 - **Artificial Intelligence, Big Data, and Blockchain in Food Safety: A Review**
   <br>
   Qinqin Zhou, **Hao Zhang**, and Suya Wang
@@ -55,7 +61,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   
 - **Detecting Small Objects in Thermal Images Using Single-Shot Detector**
   <br>
-  **Hao Zhang**, Xianggong Hong, Li Zhu. 
+  **Hao Zhang**, Xianggong Hong, and Li Zhu. 
   <br>
   *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
   <br>
@@ -71,7 +77,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   
 - **Recent progresses on object detection: a brief review**
   <br>
-  **Hao Zhang**, Xianggong Hong.
+  **Hao Zhang** and Xianggong Hong.
   <br>
   *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
   <br>
