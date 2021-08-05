@@ -49,7 +49,9 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. 
   <br>
-  *IEEE Wireless Communications Letters* (Accepted)
+  *IEEE Wireless Communications Letters* (Early Access)
+  <br>
+  [[IEEE Xplore](https://doi.org/10.1109/LWC.2021.3102069)]
 
 - **A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks**
   <br>
