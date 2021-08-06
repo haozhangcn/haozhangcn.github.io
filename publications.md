@@ -7,7 +7,7 @@ layout: homepage
 1. 张浩. [快速高效小目标检测网络算法研究](https://kns.cnki.net/KCMS/detail/detail.aspx?dbname=CMFD202101&filename=1020056234.nh)[D].南昌大学,2020.
 
 ### Preprints
-1. Lu Yuan, **Hao Zhang**, Ming Xu, Fuhui Zhou, and Qihui Wu. "A Multi-Scale CNN Framework for Wireless Technique Classification in Beyond 5G Communications", (Under Preparation)
+1. Lu Yuan, **Hao Zhang**, Ming Xu, Fuhui Zhou, and Qihui Wu. "A Multi-Scale CNN Framework for Wireless Technique Classification in Beyond 5G Communications", *IEEE Internet of Things Journal* (Under Review)
 2. Qinqin Zhou, **Hao Zhang**, and Suya Wang. "Artificial Intelligence, Big Data, and Blockchain in Food Safety: A Review", *International Journal of Food Engineering* (Under Review)
 3. Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, and Bin Shi. "Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence", *Engineering Geology* (Under Review)
 

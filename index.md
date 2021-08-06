@@ -31,7 +31,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   Lu Yuan, **Hao Zhang**, Ming Xu, Fuhui Zhou, and Qihui Wu
   <br>
-  (Under Preparation)
+  Submitted to *IEEE Internet of Things Journal*
 
 - **Artificial Intelligence, Big Data, and Blockchain in Food Safety: A Review**
   <br>
