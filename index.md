@@ -113,7 +113,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 - **B.S.**, Internet of Things Engineering, [Nanchang University](http://www.ncu.edu.cn/), June 2017.
 
 ## Awards and Honors
-- Outstanding Graduates of Nanchang University (4%), Jun., 2020.
+- [Outstanding Graduates of Nanchang University](http://ygb.ncu.edu.cn/tzgg/9d1c4bebab7c4184b770575262180835.htm) (4%), Jun., 2020.
 
 - The First Prize Graduate Scholarship of Nanchang University, May, 2020.
 
