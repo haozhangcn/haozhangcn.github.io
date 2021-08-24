@@ -51,7 +51,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *IEEE Wireless Communications Letters* (Early Access)
   <br>
-  [[IEEE Xplore](https://doi.org/10.1109/LWC.2021.3102069)]
+  [[IEEE Xplore](https://doi.org/10.1109/LWC.2021.3102069)][[arxiv](https://arxiv.org/abs/2108.10001)][[PDF](https://arxiv.org/pdf/2108.10001.pdf)]
 
 - **A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks**
   <br>

@@ -13,7 +13,7 @@ layout: homepage
 
 
 ### Journals
-1. **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. "[Automatic Modulation Classification Using Involution Enabled Residual Networks](https://doi.org/10.1109/LWC.2021.3102069)", *IEEE Wireless Communications Letters* (Early Access)
+1. **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. "[Automatic Modulation Classification Using Involution Enabled Residual Networks](https://doi.org/10.1109/LWC.2021.3102069)", *IEEE Wireless Communications Letters* (Early Access) [[arxiv](https://arxiv.org/abs/2108.10001)]
 2. **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. "[A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks](https://doi.org/10.1109/TCCN.2021.3091730)", *IEEE Transactions on Cognitive and Communications Networking* (Early Access)  [[arxiv](https://arxiv.org/abs/2105.15037)]
 3. **Hao Zhang**, Xianggong Hong, and Li Zhu. “[Detecting Small Objects in Thermal Images Using Single-Shot Detector](https://doi.org/10.3103/S0146411621020097)”, *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
 4. Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Bo Liu, and Bin Shi. “[Automatic Soil Desiccation Crack Recognition Using Deep Learning](https://doi.org/10.1680/jgeot.20.P.091)”, *Geotechnique* 0 0:0, 1-13.
