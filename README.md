@@ -19,30 +19,53 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   Spectrum Sensing and Signal Identification.
 
 ## News
+- **[31st July 2021]** Our paper "Automatic Modulation Classification Using Involution Enabled Residual Networks" is accepted by *IEEE WCL*.
+- **[16th June 2021]** Our paper about automatic modulation classification [[arxiv](https://arxiv.org/abs/2105.15037)] is accepted by *IEEE TCCN*.
+- **[31st May 2021]** Our paper "A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks" is submitted to  [[arxiv](https://arxiv.org/abs/2105.15037)].
 
-- **[May 2020]** Our paper about object detection online in [[Page](https://doi.org/10.3103/S0146411621020097)].
-
-## Publications [[full](publications.html)]
+## Publications [[more](publications.html)]
 ### Journals
-- **Automatic Modulation Classification Using Involution based Residual Networks**
+- **A Multi-Scale CNN Framework for Wireless Technique Classification in Beyond 5G Communications**
+  <br>
+  Lu Yuan, **Hao Zhang**, Ming Xu, Fuhui Zhou, and Qihui Wu
+  <br>
+  Submitted to *IEEE Internet of Things Journal*
+
+- **Artificial Intelligence, Big Data, and Blockchain in Food Safety: A Review**
+  <br>
+  Qinqin Zhou, **Hao Zhang**, and Suya Wang
+  <br>
+  Submitted to *International Journal of Food Engineering*
+
+- **Automatic Soil Crack Recognition Under Uneven Illumination Condition with The Application of Artificial Intelligence**
+  <br>
+  Jin-Jian Xu, **Hao Zhang**, Chao-Sheng Tang, Qing Cheng, Ben-gang Tian, Bo Liu, and Bin Shi
+  <br>
+  Submitted to *Engineering Geology*
+  
+- **Automatic Modulation Classification Using Involution Enabled Residual Networks**
   <br>
   **Hao Zhang**, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu. 
   <br>
-  Submitted to *IEEE Wireless Communications Letters*
+  *IEEE Wireless Communications Letters* (Early Access)
+  <br>
+  [[IEEE Xplore](https://doi.org/10.1109/LWC.2021.3102069)][[arxiv](https://arxiv.org/abs/2108.10001)][[PDF](https://arxiv.org/pdf/2108.10001.pdf)]
 
 - **A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks**
   <br>
   **Hao Zhang**, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu. 
   <br>
-  *IEEE Transactions on Cognitive and Communications Networking* (Minor revision)
+  *IEEE Transactions on Cognitive and Communications Networking* (Early Access)
+  <br>
+  [[IEEE Xplore](https://doi.org/10.1109/TCCN.2021.3091730)][[arxiv](https://arxiv.org/abs/2105.15037)][[PDF](https://arxiv.org/pdf/2105.15037.pdf)]
   
 - **Detecting Small Objects in Thermal Images Using Single-Shot Detector**
   <br>
-  **Hao Zhang**, Xianggong Hong, Li Zhu. 
+  **Hao Zhang**, Xianggong Hong, and Li Zhu. 
   <br>
   *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
   <br>
-  [[Page](https://doi.org/10.3103/S0146411621020097)][[PDF](https://www.researchgate.net/publication/351592409_Detecting_Small_Objects_in_Thermal_Images_Using_Single-Shot_Detector)][[bib](files/zhang2021detecting.bib)]
+  [[Springer](https://doi.org/10.3103/S0146411621020097)][[PDF](https://www.researchgate.net/publication/351592409_Detecting_Small_Objects_in_Thermal_Images_Using_Single-Shot_Detector)][[bib](files/zhang2021detecting.bib)]
 
 - **Automatic Soil Desiccation Crack Recognition Using Deep Learning**
   <br>
@@ -50,22 +73,22 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Geotechnique* 0 0:0, 1-13.
   <br>
-  [[Page](https://doi.org/10.1680/jgeot.20.P.091)][[bib](files/xu2020automatic.bib)]
+  [[ICE](https://doi.org/10.1680/jgeot.20.P.091)][[bib](files/xu2020automatic.bib)]
   
 - **Recent progresses on object detection: a brief review**
   <br>
-  **Hao Zhang**, Xianggong Hong.
+  **Hao Zhang** and Xianggong Hong.
   <br>
   *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
   <br>
-  [[Page](https://doi.org/10.1007/s11042-019-07898-2)][[PDF](https://www.researchgate.net/publication/334061509_Recent_progresses_on_object_detection_a_brief_review)][[bib](files/zhang2019recent.bib)]
+  [[Springer](https://doi.org/10.1007/s11042-019-07898-2)][[PDF](https://www.researchgate.net/publication/334061509_Recent_progresses_on_object_detection_a_brief_review)][[bib](files/zhang2019recent.bib)]
   
 ### Conferences
 - **Small Object Detection Based on Modified FSSD and Model Compression**
   <br>
   Qingcai Wang, **Hao Zhang**, Xianggong Hong, and Qinqin Zhou. 
   <br>
-  *IEEE ICSIP 2021* (Accepted)
+  *2021 IEEE 6th International Conference on Signal and Image Processing (IEEE ICSIP 2021)* (Accepted)
   
 - **Infrared image segmentation for photovoltaic panels based on Res-UNet**
   <br>
@@ -73,12 +96,24 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Chinese Conference on Pattern Recognition and Computer Vision (PRCV)*. Springer, Cham, 2019.
   <br>
-  [[Page](https://doi.org/10.1007/978-3-030-31654-9_52)][[PDF](https://www.researchgate.net/publication/336917932_Infrared_Image_Segmentation_for_Photovoltaic_Panels_Based_on_Res-UNet)][[bib](files/zhang2019infrared.bib)]
+  [[Springer](https://doi.org/10.1007/978-3-030-31654-9_52)][[PDF](https://www.researchgate.net/publication/336917932_Infrared_Image_Segmentation_for_Photovoltaic_Panels_Based_on_Res-UNet)][[bib](files/zhang2019infrared.bib)]
   
 ## Services
-- Student Members: [IEEE](https://www.ieee.org/), [CCF](https://www.ccf.org.cn/), [IEEE ComSoc](https://www.comsoc.org/), [IEEE Computer Society](https://www.computer.org/).
-- Conference Reviewers: [WCSP 2020](http://www.ic-wcsp.org/)
-- Journal Reviewers: [IEEE Systems Journal](https://ieeesystemsjournal.org/), [IEEE Access](https://ieeeaccess.ieee.org/), [Electronics Letters](https://digital-library.theiet.org/content/journals/el)
+- Student Members
+  * [IEEE](https://www.ieee.org/)
+  * [CCF](https://www.ccf.org.cn/)
+  * [IEEE ComSoc](https://www.comsoc.org/)
+  * [IEEE Computer Society](https://www.computer.org/)
+- Journal Reviewers
+  * [IEEE Network](https://www.comsoc.org/publications/magazines/ieee-network)
+  * [IEEE Systems Journal](https://ieeesystemsjournal.org/)
+  * [IEEE Communications Letters](https://www.comsoc.org/publications/journals/ieee-comml)
+  * [IEEE Access](https://ieeeaccess.ieee.org/)
+  * [Electronics Letters](https://digital-library.theiet.org/content/journals/el)
+  * [Journal of Sensors](https://www.hindawi.com/journals/js/)
+- Conference Reviewers
+  * [IEEE WCSP 2020](http://www.ic-wcsp.org/)
+  * [IEEE GLOBECOM 2021](https://globecom2021.ieee-globecom.org/)
 
 ## Education
 - **Ph.D student**, Information and Communication Engineering, [NUAA]((http://www.nuaa.edu.cn/)), Now.
@@ -88,7 +123,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
 - **B.S.**, Internet of Things Engineering, [Nanchang University](http://www.ncu.edu.cn/), June 2017.
 
 ## Awards and Honors
-- Outstanding Graduates of Nanchang University (4%), Jun., 2020.
+- [Outstanding Graduates of Nanchang University](http://ygb.ncu.edu.cn/tzgg/9d1c4bebab7c4184b770575262180835.htm) (4%), Jun., 2020.
 
 - The First Prize Graduate Scholarship of Nanchang University, May, 2020.
 

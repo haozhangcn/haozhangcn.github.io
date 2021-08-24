@@ -101,9 +101,21 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   [[Springer](https://doi.org/10.1007/978-3-030-31654-9_52)][[PDF](https://www.researchgate.net/publication/336917932_Infrared_Image_Segmentation_for_Photovoltaic_Panels_Based_on_Res-UNet)][[bib](files/zhang2019infrared.bib)]
   
 ## Services
-- Student Members: [IEEE](https://www.ieee.org/), [CCF](https://www.ccf.org.cn/), [IEEE ComSoc](https://www.comsoc.org/), [IEEE Computer Society](https://www.computer.org/).
-- Conference Reviewers: [IEEE WCSP 2020](http://www.ic-wcsp.org/), [IEEE GLOBECOM 2021](https://globecom2021.ieee-globecom.org/)
-- Journal Reviewers: [IEEE Systems Journal](https://ieeesystemsjournal.org/), [IEEE Access](https://ieeeaccess.ieee.org/), [Electronics Letters](https://digital-library.theiet.org/content/journals/el), [Sensors](https://www.mdpi.com/journal/sensors), [Journal of Sensors](https://www.hindawi.com/journals/js/)
+- Student Members
+  * [IEEE](https://www.ieee.org/)
+  * [CCF](https://www.ccf.org.cn/)
+  * [IEEE ComSoc](https://www.comsoc.org/)
+  * [IEEE Computer Society](https://www.computer.org/)
+- Journal Reviewers
+  * [IEEE Network](https://www.comsoc.org/publications/magazines/ieee-network)
+  * [IEEE Systems Journal](https://ieeesystemsjournal.org/)
+  * [IEEE Communications Letters](https://www.comsoc.org/publications/journals/ieee-comml)
+  * [IEEE Access](https://ieeeaccess.ieee.org/)
+  * [Electronics Letters](https://digital-library.theiet.org/content/journals/el)
+  * [Journal of Sensors](https://www.hindawi.com/journals/js/)
+- Conference Reviewers
+  * [IEEE WCSP 2020](http://www.ic-wcsp.org/)
+  * [IEEE GLOBECOM 2021](https://globecom2021.ieee-globecom.org/)
 
 ## Education
 - **Ph.D student**, Information and Communication Engineering, [NUAA]((http://www.nuaa.edu.cn/)), Now.
