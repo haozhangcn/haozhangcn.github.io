@@ -90,7 +90,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   Qingcai Wang, **Hao Zhang**, Xianggong Hong, and Qinqin Zhou. 
   <br>
-  *IEEE ICSIP 2021* (Accepted)
+  *2021 IEEE 6th International Conference on Signal and Image Processing (IEEE ICSIP 2021)* (Accepted)
   
 - **Infrared image segmentation for photovoltaic panels based on Res-UNet**
   <br>
