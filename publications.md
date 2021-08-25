@@ -20,6 +20,6 @@ layout: homepage
 5. **Hao Zhang** and Xianggong Hong.“[Recent progresses on object detection: a brief review](https://doi.org/10.1007/s11042-019-07898-2)”, *Multimedia Tools and Applications* 78.19 (2019): 27809-27847.
 
 ### Conferences
-1. Qingcai Wang, **Hao Zhang**, Xianggong Hong, and Qinqin Zhou. "Small Object Detection Based on Modified FSSD and Model Compression", *2021 IEEE 6th International Conference on Signal and Image Processing (IEEE ICSIP 2021)* (Accepted)
+1. Qingcai Wang, **Hao Zhang**, Xianggong Hong, and Qinqin Zhou. "Small Object Detection Based on Modified FSSD and Model Compression", *2021 IEEE 6th International Conference on Signal and Image Processing (IEEE ICSIP 2021)* (Accepted)  [[arxiv](https://arxiv.org/abs/2108.10503)]
 2. **Hao Zhang**, Xianggong Hong, Shifen Zhou, and Qingcai Wang. “[Infrared image segmentation for photovoltaic panels based on Res-UNet](https://doi.org/10.1007/978-3-030-31654-9_52
 )”, *Chinese Conference on Pattern Recognition and Computer Vision (PRCV)*. Springer, Cham, 2019.
