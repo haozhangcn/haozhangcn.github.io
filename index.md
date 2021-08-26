@@ -67,7 +67,7 @@ Before that, I recieved the B.S. degree in the Internet of Things Engineering fr
   <br>
   *Automatic Control and Computer Sciences* Aut. 55, 202–211 (2021).
   <br>
-  [[Springer](https://doi.org/10.3103/S0146411621020097)][[PDF](https://www.researchgate.net/publication/351592409_Detecting_Small_Objects_in_Thermal_Images_Using_Single-Shot_Detector)][[bib](files/zhang2021detecting.bib)]
+  [[Springer](https://doi.org/10.3103/S0146411621020097)][[arxiv](https://arxiv.org/abs/2108.11101)][[PDF](https://arxiv.org/ftp/arxiv/papers/2108/2108.11101.pdf)][[bib](files/zhang2021detecting.bib)]
 
 - **Automatic Soil Desiccation Crack Recognition Using Deep Learning**
   <br>
