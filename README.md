@@ -1,16 +1,5 @@
 = Hao Zhang-个人学术主页
 
-
-{{<img src="images/haozhang.jpg" class="avatar" alt="haozhang">}}
-{{<div class="icon-container">
-    <a href="https://scholar.google.com.hk/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="fonts/google-scholar.png"/></a>
-    <a href="https://github.com/haozhangcn" target="_blank"><img src="fonts/github.svg"/></a>
-    <a href="https://www.researchgate.net/profile/Hao-Zhang-408" target="_blank"><img src="fonts/ResearchGate.png"/></a>
-    <a href="https://orcid.org/0000-0003-1923-589X" target="_blank"><img src="fonts/ORCID-iD.svg"/></a>
-    <a href="share/haozhang.pdf" target="_blank"><img src="fonts/cv.png"/></a>
-    <a href="mailto:haozhangcn@ieee.org" target="_blank"><img src="fonts/email.png"/></a>
-</div>}}
-
 \n
 I am now a 3rd year Ph.D. candidate under the supervision of Prof. Fuhui Zhou 
 in [http://ceie.nuaa.edu.cn/ College of Electronic and Information Engineering], 
