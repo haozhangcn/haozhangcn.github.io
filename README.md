@@ -1,6 +1,6 @@
-= Hao Zhang-个人学术主页
+# Hao Zhang-个人学术主页
 
-\n
+
 I am now a 3rd year Ph.D. candidate under the supervision of Prof. Fuhui Zhou 
 in [http://ceie.nuaa.edu.cn/ College of Electronic and Information Engineering], 
 [http://www.nuaa.edu.cn Nanjing University of Aeronautics and Astronautics]. 
@@ -8,11 +8,11 @@ I was selected as a member of *Top-notch Postgraduate Innovative Talents Trainin
 I have just received a Master of Engineering degree from [http://www.ncu.edu.cn Nanchang University], 
 majoring in Electrical and Communication Engineering. 
 Before that, I received a B.S. degree in Internet of Things Engineering from [http://www.ncu.edu.cn Nanchang University] in 2017. 
-Until now, I have published over 10 paper (citation: {{<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@main%2Fgs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" height="18px"/></a>}}, H index: {{<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@main%2Fgs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" height="18px"/></a>}}), including *{{<font color="red">one ESI highly cited paper</font>}}*.
+Until now, I have published over 10 paper (citation: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@main%2Fgs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" height="18px"/></a>, H index: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@main%2Fgs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" height="18px"/></a>), including *{{<font color="red">one ESI highly cited paper</font>}}*.
 
 *My homepage is both hosted in server [https://haozhangcn.com] and Github [https://haozhangcn.github.io]*
 
-{{<a href="cn_index.html">[中文简介]</a>}}
+<a href="cn_index.html">[中文简介]</a>
 
 我目前是[http://www.nuaa.edu.cn 南京航空航天大学] [http://ceie.nuaa.edu.cn/ 电子信息工程学院] 的博士研究生，指导老师为周福辉教授。
 我于2022年入选南京航空航天大学*研究生拔尖创新人才培养“引航计划”*。
@@ -20,7 +20,7 @@ Until now, I have published over 10 paper (citation: {{<a href="https://scholar.
 到目前为止，我已发表论文10余篇（引用：{{<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@main%2Fgs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" height="18px"/></a>}}，H指数：{{<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@main%2Fgs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" height="18px"/></a>}}），其中包括*{{<font color="red">一篇ESI高被引论文</font>}}*。
 
 
-== News
+## News
 
 ~~~
 - *Nov 27 2023*. I will join Assoc Prof [https://dr.ntu.edu.sg/cris/rp/rp02157 Chau Yuen]'s group in the [https://www.ntu.edu.sg/eee School of Electrical & Electronic Engineering], [https://www.ntu.edu.sg/ Nanyang Technological University] in Dec 2023.
@@ -32,7 +32,7 @@ Until now, I have published over 10 paper (citation: {{<a href="https://scholar.
 ~~~
 
 
-== Research Interests
+## Research Interests
 
 - *Deep Convolutional Neural Networks (DCNN)* is a class of artificial neural network with multiple layers between the input and output layers, most commonly applied to analyzing visual imagery.
 
@@ -44,25 +44,25 @@ Until now, I have published over 10 paper (citation: {{<a href="https://scholar.
 
 
 
-== Selected Papers \[[pubs.html more]\]
+## Selected Papers \[[pubs.html more]\]
 
-=== RFML
-- A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks\n
-  *Hao Zhang*, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu.\n 
+### RFML
+- A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks<br>
+  *Hao Zhang*, Fuhui Zhou, Qihui Wu, Wei Wu, and Rose Qingyang Hu.<br>
   /IEEE Transactions on Cognitive Communications and Networking/, vol. 8, no. 1, pp. 97-110, March 2022, doi: 10.1109/TCCN.2021.3091730.
-- Automatic Modulation Classification Using Involution Enabled Residual Networks\n
-  *Hao Zhang*, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu.\n
+- Automatic Modulation Classification Using Involution Enabled Residual Networks<br>
+  *Hao Zhang*, Lu Yuan, Guangyu Wu, Fuhui Zhou, and Qihui Wu.<br>
   /IEEE Wireless Communication Letters/, vol. 10, no. 11, pp. 2417-2420, Nov. 2021, doi: 10.1109/LWC.2021.310206
 
 === DCNN
-- Recent Progresses on Object Detection: A Brief Review\n
-  *Hao Zhang*, Xianggong Hong.\n
+- Recent Progresses on Object Detection: A Brief Review<br>
+  *Hao Zhang*, Xianggong Hong.<br>
   /Multimedia Tools and Applications/: 78 (19), 27809-27847. (CCF-C)
 
-- Automatic Soil Desiccation Crack Recognition Using Deep Learning\n 
-  Jin-Jian Xu, *Hao Zhang*, Chao-Sheng Tang, Qing Cheng, Bo Liu, Bin Shi\n 
-  Geotechnique 2022 72:4, 337-349.\n 
-  *ESI Highly Cited Paper & 75th Géotechnique Anniversary Early Career Award ([https://www.icevirtuallibrary.com/page/ice-news/geot75anniversaryprogramme insightful paper on Artificial Intelligence and Statistics in geotechnics published in the decade 2013‑2023])*
+- Automatic Soil Desiccation Crack Recognition Using Deep Learning<br>
+  Jin-Jian Xu, *Hao Zhang*, Chao-Sheng Tang, Qing Cheng, Bo Liu, Bin Shi<br>
+  Geotechnique 2022 72:4, 337-349.<br>
+  *ESI Highly Cited Paper & 75th Géotechnique Anniversary Early Career Award ([insightful paper on Artificial Intelligence and Statistics in geotechnics published in the decade 2013‑2023](https://www.icevirtuallibrary.com/page/ice-news/geot75anniversaryprogramme))*
 
 
 == Services
@@ -127,4 +127,4 @@ Until now, I have published over 10 paper (citation: {{<a href="https://scholar.
 
 
 
-{{<a href="https://clustrmaps.com/site/1bau5" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=kYcJGti-gQUTsq9jbpOdRdc76iwwRnqebOil_yHkiUI&cl=ffffff"></a> }} 
+<a href="https://clustrmaps.com/site/1bau5" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=kYcJGti-gQUTsq9jbpOdRdc76iwwRnqebOil_yHkiUI&cl=ffffff"></a>
