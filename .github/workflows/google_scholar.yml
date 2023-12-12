@@ -32,7 +32,7 @@ jobs:
         cd ./results
         
         git config --local user.name "${ACTOR}"
-        git config --local user.email "${EMAIL}"
+        git config --local user.email "1765215482@qq.com"
         git init
         export remote_repo="https://${ACTOR}:${{ secrets.TOKEN }}@github.com/${REPOSITORY}.git"
         git add *.json
