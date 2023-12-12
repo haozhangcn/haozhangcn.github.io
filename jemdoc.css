@@ -436,6 +436,10 @@ table.imgtable, table.imgtable td {
 	width: 20%;
 }
 
+.linimage {
+    height: 20px;
+	vertical-align: middle;
+}
 
 .icenter {
 	display: block;
