@@ -35,7 +35,7 @@ jobs:
         git config --global user.name ${{ vars.ACTOR }}
         
         git init
-        export remote_repo="https://${{ vars.EMAIL }}:${{ secrets.TOKEN }}@github.com/${{ vars.REPOSITORY }}.git"
+        export remote_repo="https://${{ vars.ACTOR }}:${{ secrets.TOKEN }}@github.com/${{ vars.REPOSITORY }}.git"
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${{vars.REMOTE_REPOSITORY}}" HEAD:gs --force
