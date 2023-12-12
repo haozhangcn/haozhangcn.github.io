@@ -32,7 +32,7 @@ jobs:
         cd ./results
         
         git config --global user.email ${{ vars.EMAIL }}
-        git config --global user.name ${{ vars.EMAIL }}
+        git config --global user.name ${{ vars.ACTOR }}
         
         git init
         export remote_repo="https://${{ vars.EMAIL }}:${{ secrets.TOKEN }}@github.com/${{ vars.REPOSITORY }}.git"
