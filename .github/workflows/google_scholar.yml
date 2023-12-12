@@ -31,8 +31,8 @@ jobs:
         python3 google.py
         cd ./results
         
-        git config --global user.email "${EMAIL}"
-        git config --global user.name "${ACTOR}"
+        git config user.email "${EMAIL}"
+        git config user.name "${ACTOR}"
         
         git init
         export remote_repo="https://${ACTOR}:${{ secrets.TOKEN }}@github.com/${REPOSITORY}.git"
