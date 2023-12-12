@@ -30,9 +30,10 @@ jobs:
         pip3 install -r requirements.txt
         python3 google.py
         cd ./results
-        git init
+        
         git config --local user.name "${ACTOR}"
         git config --local user.email "${EMAIL}"
+        git init
         export remote_repo="https://${ACTOR}:${{ secrets.TOKEN }}@github.com/${REPOSITORY}.git"
         git add *.json
         git commit -m "Updated Citation Data"
