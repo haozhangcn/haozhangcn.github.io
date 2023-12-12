@@ -31,13 +31,13 @@ jobs:
         python3 google.py
         cd ./results
         
-        git config --global user.email 1765215482@qq.com
-        git config --global user.name haozhangcn
+        git config --global user.email ${{ EMAIL }}
+        git config --global user.name ${{ ACTOR }}
         
         git init
-        export remote_repo="https://${ACTOR}:${{ secrets.TOKEN }}@github.com/${REPOSITORY}.git"
+        export remote_repo="https://${{ACTOR}}:${{ secrets.TOKEN }}@github.com/${{REPOSITORY}}.git"
         git add *.json
         git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:gs --force
+        git push "${{remote_repo}}" HEAD:gs --force
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
