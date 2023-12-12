@@ -31,11 +31,11 @@ jobs:
         python3 google.py
         cd ./results
         
-        git config --global user.email ${{ EMAIL }}
-        git config --global user.name ${{ ACTOR }}
+        git config --global user.email ${{ vars.EMAIL }}
+        git config --global user.name ${{ vars.EMAIL }}
         
         git init
-        export remote_repo="https://${{ACTOR}}:${{ secrets.TOKEN }}@github.com/${{REPOSITORY}}.git"
+        export remote_repo="https://${{vars.EMAIL}}:${{ secrets.TOKEN }}@github.com/${{REPOSITORY}}.git"
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${{remote_repo}}" HEAD:gs --force
