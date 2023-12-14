@@ -32,3 +32,17 @@ h_data = {
 with open(f'results/h.json', 'w') as outfile:
     json.dump(h_data, outfile, ensure_ascii=False)
 
+# generated citations for publications
+os.makedirs('results/pubs/', exist_ok=True)
+
+for pub in author['publications']:
+    citation_data = {
+      "schemaVersion": 1,
+      "label": "citations",
+      "message": f"{author['publications'][pub]['num_citations']}",
+    }
+    name = author['publications'][pub]['author_pub_id']
+    print(name)
+    with open(f'results/pubs/' + name + '.json', 'w') as outfile:
+        json.dump(citation_data, outfile, ensure_ascii=False)
+
