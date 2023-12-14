@@ -441,6 +441,11 @@ table.imgtable, table.imgtable td {
 	vertical-align: middle;
 }
 
+.footerimage {
+    height: 18px;
+	vertical-align: middle;
+}
+
 .icenter {
 	display: block;
 	
