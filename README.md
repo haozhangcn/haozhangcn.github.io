@@ -26,7 +26,7 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
 
 
 ## News
-
+- **Jan 1 2024**. I am now in Singpore, and I will work in NTU as a visiting Ph.D. student in year 2024.
 - **Nov 27 2023**. I will join Assoc Prof [Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157)'s group in the [School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee ), [Nanyang Technological University](https://www.ntu.edu.sg/) in Jan 2024.
 - **Oct 27 2023**. *<font color="red">Our paper “Automatic Soil Desiccation Crack Recognition Using Deep Learning” was selected as the insightful paper on Artificial Intelligence and Statistics in geotechnics published in the decade 2013‑2023 by Géotechnique.</font>* 
 - **July 26 2023**. I was awarded the Chinese Government Scholarship by the Chinese Scholarship Council (CSC).
@@ -126,5 +126,7 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
     - [mailto:haozhangcn@ieee.org] | [mailto:email@haozhangcn.com] 
 
 ### Offices
-- *Address in Singapore*: School of EEE, 50 Nanyang Avenue, Singapore
-- *Address*: No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106
+- **Address in Singpore**: School of Electrical & Electronic Engineering (EEE), Nanyang Technological University, 50 Nanyang Avenue, Singapore 639798
+
+- **Address in Nanjing**: No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106
+
