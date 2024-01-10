@@ -126,4 +126,5 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
     - [mailto:haozhangcn@ieee.org] | [mailto:email@haozhangcn.com] 
 
 ### Offices
+- *Address in Singapore*: School of EEE, 50 Nanyang Avenue, Singapore
 - *Address*: No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106
