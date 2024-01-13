@@ -22,7 +22,7 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
 我目前是[南京航空航天大学](http://www.nuaa.edu.cn) [电子信息工程学院](http://ceie.nuaa.edu.cn/) 的博士研究生，指导老师为周福辉教授。
 我于2022年入选南京航空航天大学**研究生拔尖创新人才培养“引航计划”**。
 我分别于2017年和2020年在[南昌大学](http://www.ncu.edu.cn)获得物联网工程专业学士学位和电子与通信工程硕士学位。
-到目前为止，我已发表论文10余篇（引用：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" class="linimage"/></a>，H指数：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" class="linimage"/></a>)），其中包括*{{<font color="red">一篇ESI高被引论文</font>}}*。
+到目前为止，我已发表论文10余篇（引用：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" class="linimage"/></a>，H指数：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" class="linimage"/></a>)），其中包括<font color="red">一篇ESI高被引论文</font>。
 
 
 ## News
@@ -76,28 +76,28 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
 - [CAAI](https://www.caai.cn/)
 
 ### Journal Reviewers
-- [https://www.comsoc.org/publications/magazines/ieee-network IEEE Network]
-- [https://ieeesystemsjournal.org IEEE Systems Journal] 
-- [https://www.comsoc.org/publications/journals/ieee-tcom IEEE Transactions on Communications (TCOM)] 
-- [https://www.comsoc.org/publications/journals/ieee-tccn IEEE Transactions on Cognitive Communications and Networking (TCCN)] 
-- [https://vtsociety.org/publication/ieee-transactions-vehicular-technology IEEE Transactions on Vehicular Technology (TVT)] 
-- [https://ieee-iotj.org/ IEEE Internet of Things Journal] 
-- [https://www.comsoc.org/publications/journals/ieee-wcl IEEE Wireless Communications Letters (WCL)]
-- [https://www.comsoc.org/publications/journals/ieee-comml IEEE Communications Letters (CL)] 
-- [http://www.cic-chinacommunications.cn/EN/volumn/home.shtml China Communications]
-- [https://www.hindawi.com/journals/schm Structural Control and Health Monitoring]
-- [https://www.journals.elsevier.com/physical-communication Physical Communication] 
-- [https://www.springer.com/journal/11760 Signal, Image and Video Processing] 
-- [https://ieeeaccess.ieee.org/ IEEE Access]
-- [https://digital-library.theiet.org/content/journals/el Electronics Letters] 
-- [https://www.hindawi.com/journals/js/ Journal of Sensors] 
-- [https://www.mdpi.com/journal/applsci Applied Sciences]
+- [IEEE Network](https://www.comsoc.org/publications/magazines/ieee-network)
+- [IEEE Systems Journal](https://ieeesystemsjournal.org)
+- [IEEE Transactions on Communications (TCOM)](https://www.comsoc.org/publications/journals/ieee-tcom)
+- [IEEE Transactions on Cognitive Communications and Networking (TCCN)](https://www.comsoc.org/publications/journals/ieee-tccn)
+- [IEEE Transactions on Vehicular Technology (TVT)](https://vtsociety.org/publication/ieee-transactions-vehicular-technology)
+- [IEEE Internet of Things Journal](https://ieee-iotj.org)
+- [IEEE Wireless Communications Letters (WCL)](https://www.comsoc.org/publications/journals/ieee-wcl)
+- [IEEE Communications Letters (CL)](https://www.comsoc.org/publications/journals/ieee-comml)
+- [China Communications](http://www.cic-chinacommunications.cn/EN/volumn/home.shtml)
+- [ Structural Control and Health Monitoring](https://www.hindawi.com/journals/schm)
+- [ Physical Communication](https://www.journals.elsevier.com/physical-communication)
+- [ Signal, Image and Video Processing](https://www.springer.com/journal/11760) 
+- [ IEEE Access](https://ieeeaccess.ieee.org/)
+- [ Electronics Letters](https://digital-library.theiet.org/content/journals/el) 
+- [ Journal of Sensors](https://www.hindawi.com/journals/js/) 
+- [ Applied Sciences](https://www.mdpi.com/journal/applsci)
 
 ### Conference Reviewers
-- [http://www.ic-wcsp.orgIEEE WCSP 2020]
-- [https://globecom2021.ieee-globecom.org IEEE GLOBECOM 2021] 
-- [https://globecom2022.ieee-globecom.org IEEE GLOBECOM 2022 Workshop] 
-- [https://iccc2022.ieee-iccc.org IEEE ICCC 2022] 
+- [ IEEE WCSP 2020](http://www.ic-wcsp.org)
+- [ IEEE GLOBECOM 2021](https://globecom2021.ieee-globecom.org) 
+- [ IEEE GLOBECOM 2022 Workshop](https://globecom2022.ieee-globecom.org) 
+- [ IEEE ICCC 2022](https://iccc2022.ieee-iccc.org) 
 - [IEEE VTC2022-Fall](https://vtc2022fall.trackchair.com)
 
 ## Education
@@ -108,6 +108,7 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
 - *B.S.*, Internet of Things Engineering, [Nanchang University](http://www.ncu.edu.cn), June 2017.
 
 ## Awards and Honors
+- Chinese Government Scholarship, Chinese Scholarship Council (CSC), Jul. 2023.
 - Top-notch Postgraduate Innovative Talents Training “Yinhang Project”, May 2022.
 - Outstanding Graduates of Nanchang University (4%), Jun., 2020.
 - The First Prize Graduate Scholarship of Nanchang University, May, 2020.
