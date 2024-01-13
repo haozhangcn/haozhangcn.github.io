@@ -6,14 +6,13 @@ in [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/)
 [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn) . 
 I was selected as a member of Top-notch Postgraduate Innovative Talents Training "Yinhang Project" (研究生拔尖创新人才培养“引航计划”) of NUAA in 2022. 
 
-I will join Assoc Prof [Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157)'s group in the [School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee), [Nanyang Technological University](https://www.ntu.edu.sg/) in Jan 2024 
-as a visiting Ph.D. student supported by Chinese Government Scholarship from China Scholarship Council (**CSC**).
+I am now a visiting Ph.D. student under the supervision of Assoc Prof [Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157)'s group in the [ School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee), [ Nanyang Technological University](https://www.ntu.edu.sg/) supported by Chinese Government Scholarship from China Scholarship Council (*CSC*).
 
 I have just received a Master of Engineering degree from [Nanchang University](http://www.ncu.edu.cn), 
 majoring in Electrical and Communication Engineering. 
 Before that, I received a B.S. degree in Internet of Things Engineering from [Nanchang University](http://www.ncu.edu.cn) in 2017. 
 
-Until now, I have published over 15 papers (citation: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" class="linimage"/></a>, H index: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" class="linimage"/></a>), including *{{<font color="red">one ESI highly cited paper</font>}}*.
+Until now, I have published over 15 papers (citation: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" class="linimage"/></a>, H index: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" class="linimage"/></a>), including *one ESI highly cited paper*.
 
 My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com) and Github [https://haozhangcn.github.io](https://haozhangcn.github.io)
 
@@ -21,6 +20,7 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
 
 我目前是[南京航空航天大学](http://www.nuaa.edu.cn) [电子信息工程学院](http://ceie.nuaa.edu.cn/) 的博士研究生，指导老师为周福辉教授。
 我于2022年入选南京航空航天大学**研究生拔尖创新人才培养“引航计划”**。
+我于2024年1月加入[ 南洋理工大学](https://www.ntu.edu.sg/)  [ 电气与电子工程学院](https://www.ntu.edu.sg/eee) Assoc Prof [ Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157) 课题组，作为**国家留学基金委(CSC)**资助的联合培养博士研究生。
 我分别于2017年和2020年在[南昌大学](http://www.ncu.edu.cn)获得物联网工程专业学士学位和电子与通信工程硕士学位。
 到目前为止，我已发表论文10余篇（引用：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" class="linimage"/></a>，H指数：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" class="linimage"/></a>)），其中包括<font color="red">一篇ESI高被引论文</font>。
 
@@ -41,13 +41,13 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
 
 - **Radio Frequency Machine Learning (RFML)** aims to apply machine learning and deep learning for a multitude of tasks in wireless communications, such as signal classification, spectrum sensing and signal identification and cognitive radio.
 
-## Projects \[[project.html more]\]
+## Projects \[[more](https://haozhangcn.github.io/project.html)\]
 - “Few Sample Modulation Identification under High Dynamic Environment”, *Postgraduate Research & Practice Innovation Program of Jiangsu Province* (Grant No. KYCX23_0380), 15,000 RMB.
 - “Research on Comprehensive Mechanical Performance of Coral Concrete Foundation Island and Reef Wind Turbines Based on Interpretable Deep Learning”, *Interdisciplinary Innovation Fund for Doctoral Students of NUAA* (No. KXKCXJJ202302), 100,000 RMB.
 
 
 
-## Selected Papers \[[pubs.html more]\]
+## Selected Papers \[[more](https://haozhangcn.github.io/pubs.html)\]
 
 ### RFML
 - A Novel Automatic Modulation Classification Scheme Based on Multi-Scale Networks<br>
