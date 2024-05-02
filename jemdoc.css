@@ -1,3 +1,5 @@
+/* Default css file for jemdoc. */
+
 
 table#tlayout {
 	border: none;
@@ -246,7 +248,7 @@ div.blockcontent {
 
 div.infoblock > div.blockcontent {
 	/*background: #eafbed;*/
-	background: #e5f6f0;
+	background: #f9f9f9;
 	border-radius: 9px;
 }
 
@@ -454,19 +456,19 @@ table.imgtable, table.imgtable td {
 
 .topnav a:hover {
   background-color: #eee;
-  color: #00A389;
+  color: #1c2975;
   /* font-weight: bold; */
 
 }
 
 .topnav a.active {
   background-color: white; 
-  color: #00A389;
+  color: #1c2975;
 }
 
 
 .topnav a:first-child{
-	color:  #00A389; 
+	color:  #1c2975; 
 	font-weight: bolder;
 	/* background: url(images/bg_separator.gif) no-repeat right center; */
 }
@@ -503,7 +505,7 @@ table.imgtable, table.imgtable td {
 
 	.topnav a.active{
 		display: inline;
-		color:  #00A389; 
+		color:  #1c2975; 
 		font-weight: normal;
 		text-align: left;
 		background: url(images/bg_separator.gif) no-repeat left center;
@@ -511,7 +513,7 @@ table.imgtable, table.imgtable td {
 	}
 	
 	.topnav a:first-child{
-		color:  #00A389; 
+		color:  #1c2975; 
 		font-weight: bold;
 		text-align: left;
 		background: none;
@@ -553,7 +555,7 @@ table.imgtable, table.imgtable td {
   	position: absolute;
     right: 0px;
 	top: 0;
-	color:  #00A389; 
+	color: #1c2975; 
 	background-color: white;
   }
   .topnav.responsive a {
@@ -666,5 +668,3 @@ table.imgtable, table.imgtable td {
 		color:  #2d652f;
 	}
   }
-
-  
