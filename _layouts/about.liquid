@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<header class="post-header">
+  <h1 class="post-title" style="font-size:28px">
+  {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+  </h1>
+  
+  <p class="desc">{{ page.description }}</p>
+</header>
+
+<article>
+  <div class="clearfix">
+    {% if content contains '<!--more-->' %}
+      {{ content | split:'<!--more-->' | first }}
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </div>
+
+  <!-- News -->
+  {% if page.news and site.announcements.enabled %}
+    <h2>
+      <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+    </h2>
+    {% include news.liquid limit=true %}
+  {% endif %}
+
+  <!-- Selected papers -->
+  {% if page.selected_papers %}
+    <h2>
+      <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
+    </h2>
+    {% include selected_papers.liquid %}
+  {% endif %}
+
+  <!-- Remaining content -->
+  <div class="clearfix">
+    {% if content contains '<!--more-->' %}
+      {{ content | split:'<!--more-->' | last }}
+    {% endif %}
+  </div>
+
+  {% if site.newsletter.enabled and site.footer_fixed %}
+    {% include scripts/newsletter.liquid center=true %}
+  {% endif %}
+</article>

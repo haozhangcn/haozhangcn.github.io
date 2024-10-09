@@ -1,0 +1,68 @@
+<div class="news-block">
+  <div class="news">
+    {% if site.news != blank %}
+      {% assign news_size = site.news | size %}
+      <div
+        class="table-responsive"
+        {% if include.limit and site.announcements.scrollable and news_size > 3 %}
+          style="max-height: 60vw"
+        {% endif %}
+      >
+        <table class="table table-sm table-borderless">
+          {% assign news = site.news | reverse %}
+          {% if include.limit and site.announcements.limit %}
+            {% assign news_limit = site.announcements.limit %}
+          {% else %}
+            {% assign news_limit = news_size %}
+          {% endif %}
+          {% for item in news limit: news_limit %}
+            <tr>
+              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+              <td>
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      <p>No news so far...</p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.news-block {
+  background-color: #f0f8ff; /* 淡蓝色背景 */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.news-block .table {
+  margin-bottom: 0;
+}
+
+.news-block th {
+  font-weight: bold;
+  color: #495057;
+}
+
+.news-block td {
+  color: #212529;
+}
+
+.news-block .news-title {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.news-block .news-title:hover {
+  text-decoration: underline;
+}
+</style>
