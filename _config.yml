@@ -17,7 +17,7 @@ cv: haozhang_cv_20241030.pdf
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with Modified <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 footer_info: >
-  <br> <img src="/assets/img/icp.svg" height=18px/><a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备20010101号-1</a> <img src="/assets/img/police.svg" height=18px/><a href="https://beian.mps.gov.cn/#/query/webSearch?code=32011502011959" target="_blank">苏公网安备32011502011959号</a>
+  <br> <img src="/assets/img/icp.svg" height=18px/><a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备20010101号-1</a> <img src="/assets/img/police.svg" height=18px/><a href="https://beian.mps.gov.cn/#/query/webSearch?code=32011502011959" target="_blank">苏公网安备32011502011959号</a> <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=245&t=tt&d=kYcJGti-gQUTsq9jbpOdRdc76iwwRnqebOil_yHkiUI"></script>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: haozhang.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

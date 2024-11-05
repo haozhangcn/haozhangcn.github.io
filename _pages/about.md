@@ -31,7 +31,7 @@ Until now, I have published over 15 papers (citations: [![GoogleCitations](https
 
 ## Research Interests
 - **Radio Frequency Machine Learning (RFML)** aims to apply machine learning and deep learning for a multitude of tasks in wireless communications, such as signal classification, spectrum sensing and signal identification and cognitive radio.
-- **Large Models**: studying the application of large models in wireless communications and geoscience.
+- **Foundation Models**, also known as large AI model, are AI models designed to produce a wide and general variety of outputs. We are focusing on the application of foundation models in wireless communications and geoscience.
 
 
 
