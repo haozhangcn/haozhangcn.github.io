@@ -22,7 +22,6 @@ More information can be found in my [[<b><font color="#4285F4">G</font><font col
 
 ## Preprints
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Hongyang Du, Qihui Wu, and Chau Yuen. "Revolution of Wireless Signal Recognition for 6G: Recent Advances, Challenges and Future Directions". *IEEE Communications Surveys & Tutorials* (Under Review) 
-- <u><b>Hao Zhang</b></u>, Jin-Jian Xu, Hong-Wei Cui, Lin Li, Yaowen Yang, Chao-Sheng Tang, and Niklas Boers. “When Geoscience Meets Foundation Models: Towards General Geoscience Artificial Intelligence System”. *IEEE Geoscience and Remote Sensing Magazine* (Minor revision) [[arxiv](http://arxiv.org/abs/2309.06799)]
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “Spectrum Cognition: Semantic Situation for Next-Generation Spectrum Management”, *IEEE Wireless Communications* (Under Review)
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Wei Wang, Qihui Wu, and Chau Yuen. “A Federated Learning-based Lightweight Network with Zero Trust for UAV Authentication”, *IEEE Transactions on Information Forensics and Security* (Under Review)
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “Distributed Multi-Task Learning for Joint Wireless Signal Enhancement and Recognition”, *IEEE Journal of Selected Topics in Signal Processing* (Under Review)
