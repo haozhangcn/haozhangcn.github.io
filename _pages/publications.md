@@ -21,11 +21,11 @@ More information can be found in my [[<b><font color="#4285F4">G</font><font col
   <u><b>张浩</b></u>. [快速高效小目标检测网络算法研究](https://kns.cnki.net/KCMS/detail/detail.aspx?dbname=CMFD202101&filename=1020056234.nh) [D].南昌大学,2020. [PPT]
 
 ## Preprints
-- <u><b>Hao Zhang</b></u>, Fuhui Zhou, Hongyang Du, Qihui Wu, and Chau Yuen. "Revolution of Wireless Signal Recognition for 6G: Recent Advances, Challenges and Future Directions". *IEEE Communications Surveys & Tutorials* (Under Review) 
+- <u><b>Hao Zhang</b></u>, Fuhui Zhou, Hongyang Du, Qihui Wu, and Chau Yuen. "Revolution of Wireless Signal Recognition for 6G: Recent Advances, Challenges and Future Directions". *IEEE Communications Surveys & Tutorials* (**Major Revision**) 
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “Spectrum Cognition: Semantic Situation for Next-Generation Spectrum Management”, *IEEE Wireless Communications* (Under Review)
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Wei Wang, Qihui Wu, and Chau Yuen. “A Federated Learning-based Lightweight Network with Zero Trust for UAV Authentication”, *IEEE Transactions on Information Forensics and Security* (Under Review)
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “Distributed Multi-Task Learning for Joint Wireless Signal Enhancement and Recognition”, *IEEE Transactions on Communications* (Under Review)
-- <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen.“FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification Over Multipath Fading Channels”, *IEEE Internet of Things Journal* (Under Review)
+- <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen.“FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification Over Multipath Fading Channels”, *IEEE Internet of Things Journal* (**Minor Revision**)
 - Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chao-Sheng Tang, Mohamed Ramy El-Maarry, Yao-Wen Yang, Lin Li, Bin Shi. “Drying Induces Mars Intermediate-Sized Cracks: New Evidence and Insight from Geometrical Quantification”. (Under Review) (Co-first author)
 - Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chaosheng Tang, Lin Li, Dazhan Zhang, Dianlong Wang, and Bin Shi. “XGeoS-AI: An Interpretable Learning Framework for Deciphering Geoscience Image Segmentation”.  (Under Review) (Co-first author) [XAI 2024 workshop @ IJCAI with PDF]
 - Shijin Zhao, Qihui Wu, Fuhui Zhou, <u><b>Hao Zhang</b></u>, Yang Huang, and Kai-Kuang Ma. “Cognitive Escape Reinforcement Learning for Complex Decision Making”. Science China Information Sciences (Under Review)
