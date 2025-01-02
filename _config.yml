@@ -8,7 +8,7 @@ middle_name:
 last_name: Zhang
 email: haozhangcn@nuaa.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. candidate @ NUAA & Visiting Ph.D. student @ NTU
+  Ph.D. candidate @ NUAA
 location: Singapore
 aff: NUAA
 aff_url: https://www.nuaa.edu.cn/
