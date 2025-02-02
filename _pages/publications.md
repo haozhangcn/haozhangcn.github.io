@@ -27,7 +27,6 @@ More information can be found in my [[<b><font color="#4285F4">G</font><font col
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “Distributed Multi-Task Learning for Joint Wireless Signal Enhancement and Recognition”, *IEEE Transactions on Communications* (Under Review)
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen.“FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification Over Multipath Fading Channels”, *IEEE Internet of Things Journal* (**Minor Revision**)
 - Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chao-Sheng Tang, Mohamed Ramy El-Maarry, Yao-Wen Yang, Lin Li, Bin Shi. “Drying Induces Mars Intermediate-Sized Cracks: New Evidence and Insight from Geometrical Quantification”. (Under Review) (Co-first author)
-- Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chaosheng Tang, Lin Li, Dazhan Zhang, Dianlong Wang, and Bin Shi. “XGeoS-AI: An Interpretable Learning Framework for Deciphering Geoscience Image Segmentation”.  (Under Review) (Co-first author) [XAI 2024 workshop @ IJCAI with PDF]
 - Shijin Zhao, Qihui Wu, Fuhui Zhou, <u><b>Hao Zhang</b></u>, Yang Huang, and Kai-Kuang Ma. “Cognitive Escape Reinforcement Learning for Complex Decision Making”. Science China Information Sciences (Under Review)
 
 
