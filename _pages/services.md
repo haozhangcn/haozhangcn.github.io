@@ -14,29 +14,36 @@ nav_order: 5
 - [CAAI](https://www.caai.cn/)
 
 ### Journal Reviewers
-- [IEEE Network](https://www.comsoc.org/publications/magazines/ieee-network)
-- [IEEE Systems Journal](https://ieeesystemsjournal.org)
-- [IEEE Transactions on Communications (TCOM)](https://www.comsoc.org/publications/journals/ieee-tcom)
-- [IEEE Transactions on Cognitive Communications and Networking (TCCN)](https://www.comsoc.org/publications/journals/ieee-tccn)
-- [IEEE Transactions on Vehicular Technology (TVT)](https://vtsociety.org/publication/ieee-transactions-vehicular-technology)
-- [IEEE Internet of Things Journal](https://ieee-iotj.org)
-- [IEEE Wireless Communications Letters (WCL)](https://www.comsoc.org/publications/journals/ieee-wcl)
-- [IEEE Communications Letters (CL)](https://www.comsoc.org/publications/journals/ieee-comml)
-- [China Communications](http://www.cic-chinacommunications.cn/EN/volumn/home.shtml)
-- [ Structural Control and Health Monitoring](https://www.hindawi.com/journals/schm)
-- [ Physical Communication](https://www.journals.elsevier.com/physical-communication)
-- [ Signal, Image and Video Processing](https://www.springer.com/journal/11760) 
-- [ IEEE Access](https://ieeeaccess.ieee.org/)
-- [ Electronics Letters](https://digital-library.theiet.org/content/journals/el) 
-- [ Journal of Sensors](https://www.hindawi.com/journals/js/) 
-- [ Applied Sciences](https://www.mdpi.com/journal/applsci)
+I serve as reviewers for multiple disciplines, including AI, wireless communications, geoscience, food science, etc.
+- IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
+- IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE JSTARS) 
+- IEEE Transactions on Wireless Communications (IEEE TWC)
+- IEEE Transactions on Communications (IEEE TCOM)
+- IEEE Transactions on Cognitive Communications and Networking (IEEE TCCN)
+- IEEE Transactions on Vehicular Technology (IEEE TVT)
+- IEEE Internet of Things Journal
+- IEEE Network
+- IEEE Systems Journal
+- Critical Reviews in Food Science and Nutrition
+- Journal of Agricultural and Food Chemistry
+- Geosystem Engineering
+- IEEE Wireless Communications Letters (IEEE WCL)
+- IEEE Communications Letters (IEEE CL)
+- China Communications
+- Structural Control and Health Monitoring
+- Physical Communication
+- Signal, Image and Video Processing
+- IEEE Access
+- Electronics Letters
+- Journal of Sensors
+- Applied Sciences
 
 ### Conference Reviewers
-- [ IEEE WCSP 2020](http://www.ic-wcsp.org)
-- [ IEEE GLOBECOM 2021](https://globecom2021.ieee-globecom.org) [ IEEE GLOBECOM 2024](https://globecom2024.ieee-globecom.org)
-- [ IEEE GLOBECOM 2022 Workshop](https://globecom2022.ieee-globecom.org) 
-- [ IEEE ICCC 2022](https://iccc2022.ieee-iccc.org) 
-- [IEEE VTC2022-Fall](https://vtc2022fall.trackchair.com)
+- IEEE WCSP 2020
+- IEEE GLOBECOM 2021/2024
+- IEEE GLOBECOM 2022 Workshop
+- IEEE ICCC 2022
+- IEEE VTC2022-Fall
 
 ## Awards and Honors
 - Chinese Government Scholarship, Chinese Scholarship Council (CSC), Jul 2023.
