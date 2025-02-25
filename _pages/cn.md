@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 我于2022年入选南京航空航天大学研究生拔尖创新人才培养“引航计划”。 
 我于2024年1月至2024年12月于 [南洋理工大学](https://www.ntu.edu.sg/)[电气与电子工程学院](https://www.ntu.edu.sg/eee)  Assoc Prof [Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157) (`IEEE Fellow`) 课题组，作为`国家留学基金委(CSC)`资助的联合培养博士研究生。 
 我分别于2017年和2020年在[南昌大学](http://www.ncu.edu.cn) 获得物联网工程专业学士学位和电子与通信工程硕士学位。 
-到目前为止，我已发表论文10余篇（引用： [![GoogleCitations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)，H指数：[![hindex](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)），其中包括`一篇ESI高被引论文`。
+到目前为止，我已发表论文20余篇（引用： [![GoogleCitations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)，H指数：[![hindex](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)），其中包括`一篇ESI高被引论文`。
 
 
 
