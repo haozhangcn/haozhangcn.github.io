@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-### Student Members
+### Members
 - [IEEE](https://www.ieee.org/ )
 - [CCF](https://www.ccf.org.cn)
 - [IEEE ComSoc](https://www.comsoc.org)
@@ -16,11 +16,14 @@ nav_order: 5
 ### Journal Reviewers
 I serve as reviewers for multiple disciplines, including AI, wireless communications, geoscience, food science, etc.
 - IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
-- IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE JSTARS) 
+- IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE JSTARS)
+- IEEE Geoscience and Remote Sensing Magazine (IEEE GRSM)
+- IEEE Computational Intelligence Magazine (IEEE CIM)
 - IEEE Transactions on Wireless Communications (IEEE TWC)
 - IEEE Transactions on Communications (IEEE TCOM)
 - IEEE Transactions on Cognitive Communications and Networking (IEEE TCCN)
 - IEEE Transactions on Vehicular Technology (IEEE TVT)
+- IEEE Transactions on Intelligent Transportation Systems (IEEE TITS)
 - IEEE Internet of Things Journal
 - IEEE Network
 - IEEE Systems Journal
