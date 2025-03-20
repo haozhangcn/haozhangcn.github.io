@@ -29,7 +29,7 @@ More information can be found in my [[<b><font color="#4285F4">G</font><font col
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Wei Wang, Qihui Wu, and Chau Yuen. “A Federated Learning-based Lightweight Network with Zero Trust for UAV Authentication”, *IEEE Transactions on Information Forensics and Security* (Under Review)
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “Distributed Multi-Task Learning for Joint Wireless Signal Enhancement and Recognition”, (Under Review)
 - Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chao-Sheng Tang, Mohamed Ramy El-Maarry, Yao-Wen Yang, Lin Li, Bin Shi. “Drying Induces Mars Intermediate-Sized Cracks: New Evidence and Insight from Geometrical Quantification”. (Under Review) (Co-first author)
-- Shijin Zhao, Qihui Wu, Fuhui Zhou, <u><b>Hao Zhang</b></u>, Yang Huang, and Kai-Kuang Ma. “Cognitive Escape Reinforcement Learning for Complex Decision Making”. Science China Information Sciences (Under Review)
+- Shijin Zhao, Qihui Wu, Fuhui Zhou, <u><b>Hao Zhang</b></u>, Yang Huang, and Kai-Kuang Ma. “Cognitive Escape Reinforcement Learning for Complex Decision Making”. (Under Review)
 
 
 ## Papers
