@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 **Ph.D. candidate** @  [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn)<br>
 No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106<br>
 
-I am now a last year Ph.D. candidate (EGD: **Mar 2025**) under the supervision of Prof. Fuhui Zhou 
+I am now a last year Ph.D. candidate (EGD: **Jun 2025**) under the supervision of Prof. Fuhui Zhou 
 in [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/),  [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn). 
 I was selected as a member of Top-notch Postgraduate Innovative Talents Training "Yinhang Project" (南京航空航天大学研究生拔尖创新人才培养“引航计划”) of NUAA in 2022. 
 I have received a Master of Engineering degree, and a Bachelor's degree from [Nanchang University](http://www.ncu.edu.cn), majoring in Electrical and Communication Engineering and Internet of Things Engineering in 2020 and 2017. 
