@@ -29,7 +29,10 @@ More information can be found in my [[<b><font color="#4285F4">G</font><font col
 - <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “Distributed Multi-Task Learning for Joint Wireless Signal Enhancement and Recognition”, IEEE Transactions on Cognitive Communications and Networking (Under Review)
 - Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chao-Sheng Tang, Mohamed Ramy El-Maarry, Yao-Wen Yang, Lin Li, Bin Shi. “Drying Induces Mars Intermediate-Sized Cracks: New Evidence and Insight from Geometrical Quantification”. (Under Review) (Co-first author)
 - Fuhui Zhou, Chunyu Liu, <u><b>Hao Zhang</b></u>, Wei Wu, Qihui Wu, Derrick Wing Kwan Ng, Tony Q. S. Quek, and Chan-Byoung Chae, “SpectrumFM: A Foundation Model for Intelligent Spectrum Management”, submitted to IEEE (Under Review) [[arXiv](https://arxiv.org/abs/2505.06256)]
-- Shijin Zhao, Qihui Wu, Fuhui Zhou, <u><b>Hao Zhang</b></u>, Yang Huang, and Kai-Kuang Ma. “Cognitive Escape Reinforcement Learning for Complex Decision Making”. submitted to IEEE (Under Review)
+- Chunyu Liu, <u><b>Hao Zhang</b></u>, Fuhui Zhou, Wei Wu, Qihui Wu, Derrick Wing Kwan Ng, Tony Q. S. Quek, and Chan-Byoung Chae, “SpectrumFM: Redefining Spectrum Cognition via Foundation Modeling”, submitted to IEEE GC (Under Review)
+- Yifan Wei, Xiaodong Liu, <u><b>Hao Zhang</b></u>, Fuhui Zhou and Qihui Wu. “GenSpectraLM: Large Model-Driven Spectrum Map Construction with Electromagnetic Propagation”, submitted to IEEE GC (Under Review)
+- Ming Xu, Huixin Ma, <u><b>Hao Zhang</b></u>, Fuhui Zhou and Qihui Wu. “PLMSNet: A Pseudo Labeling Multi-Scale Network for Semi-Supervised Spectrum Sensing”, submitted to IEEE GC (Under Review)
+- Shijin Zhao, Qihui Wu, Fuhui Zhou, <u><b>Hao Zhang</b></u>, Yang Huang, and Kai-Kuang Ma. “Cognitive Escape Reinforcement Learning for Complex Decision Making”. IEEE Transactions on Vehicular Technology (**Major Revision**)
 
 
 ## Papers

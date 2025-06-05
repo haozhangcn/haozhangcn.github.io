@@ -15,6 +15,7 @@ nav_order: 5
 
 ### Journal Reviewers
 I serve as reviewers for multiple disciplines, including AI, wireless communications, geoscience, food science, etc.
+- IEEE Journal on Selected Areas in Communications (IEEE JSAC)
 - IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE JSTARS)
 - IEEE Geoscience and Remote Sensing Magazine (IEEE GRSM)
