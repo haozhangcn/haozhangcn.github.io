@@ -21,7 +21,7 @@ No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106<br>
 
 I am currently a Postdoctoral Fellow at the [College of Artificial Intelligence](https://ai.nuaa.edu.cn),  [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn) (NUAA). In 2022, I was selected as a member of NUAA's Top-notch Postgraduate Innovative Talents Training "Yinhang Project" (南京航空航天大学研究生拔尖创新人才培养"引航计划").
 
-I will receive my Ph.D. degree from the [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/), [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn) in June 2025 (defense completed). Prior to that, I obtained my Master of Engineering degree (2020) and Bachelor's degree (2017) from Nanchang University, majoring in Electrical and Communication Engineering and Internet of Things Engineering, respectively.
+I received my Ph.D. degree from the [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/), [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn) in June 2025. Prior to that, I obtained my Master of Engineering degree (2020) and Bachelor's degree (2017) from Nanchang University, majoring in Electrical and Communication Engineering and Internet of Things Engineering, respectively.
 
 From January to December 2024, I was a visiting Ph.D. student under the supervision of Associate Professor Chau Yuen (IEEE Fellow) at the [School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee), [Nanyang Technological University](https://www.ntu.edu.sg/), supported by a Chinese Government Scholarship from the China Scholarship Council (CSC).
 
