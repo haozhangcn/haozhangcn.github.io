@@ -1,4 +1,5 @@
-from scholarly import scholarly
+from httpx import Proxy
+from scholarly import scholarly, ProxyGenerator
 import jsonpickle
 import json
 from datetime import datetime
