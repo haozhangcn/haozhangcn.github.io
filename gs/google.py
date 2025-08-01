@@ -1,5 +1,3 @@
-from httpx import Proxy
-from sympy import im
 from scholarly import scholarly, ProxyGenerator
 import jsonpickle
 import json
