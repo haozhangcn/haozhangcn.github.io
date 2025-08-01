@@ -1,9 +1,9 @@
 name: Citation
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 0 * * *'
+# on: 
+#  page_build: 
+#  schedule:
+#   - cron:  '0 0 * * *'
 
 on:
   # 手动触发事件
