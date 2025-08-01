@@ -19,6 +19,49 @@ strong {
   color: var(--global-text-color);
 }
 
+// Text justification for main content areas
+.post-content,
+.page-content,
+.about,
+.cv,
+.publications,
+.selected {
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  
+  // Keep headings left-aligned
+  h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+  }
+  
+  // Keep code blocks left-aligned
+  pre, code, .highlight {
+    text-align: left;
+  }
+  
+  // Keep blockquotes left-aligned (optional, you can remove this if you want justified blockquotes)
+  blockquote {
+    text-align: left;
+  }
+  
+  // For mobile devices, use left alignment for better readability
+  @media (max-width: 768px) {
+    text-align: left;
+  }
+}
+
+// Utility class for manual text justification
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
@@ -695,7 +738,7 @@ footer.sticky-bottom {
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
-    text-align: center;
+    text-align: left; // Override justify for publication headings
     margin-top: 1em;
     margin-bottom: 1em;
   }
@@ -717,13 +760,29 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    // list-style: decimal;
+    list-style: none;
     padding: 0;
     margin-top: 0;
-
+    display: flex;
+    flex-direction: column-reverse; // 倒序排列项目
+    counter-reset: pub-counter 0; // 从0开始计数
 
     li {
+      margin-left: 1.5rem;
       margin-bottom: 0.5rem;
+      position: relative;
+      counter-increment: pub-counter; // 正向递增
+      order: 1; // 确保顺序
+      
+      &::before {
+        content: counter(pub-counter) ".";
+        position: absolute;
+        left: -1.5rem;
+        font-weight: bold;
+        color: var(--global-text-color);
+        width: 1.2rem;
+        text-align: right;
+      }
 
       .preview {
         // > em {
@@ -887,6 +946,15 @@ footer.sticky-bottom {
     list-style: none;
     padding-left: 20px;
     margin-top: 1rem;
+    
+    // 移除序号显示
+    li {
+      &::before {
+        display: none !important; // 隐藏序号
+      }
+      
+      margin-left: 0; // 移除左边距，因为没有序号了
+    }
   }
 }
 

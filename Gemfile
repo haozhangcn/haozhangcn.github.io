@@ -26,4 +26,6 @@ group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
+    gem 'observer'
+    gem 'logger'
 end
