@@ -29,7 +29,6 @@ More information can be found in my [[<b><font color="#4285F4">G</font><font col
 - <u><b>Hao Zhang</b></u>, Chunyu Liu, Fuhui Zhou, and Qihui Wu. "Spectrum Foundation Model: A New Paradigm Towards General Spectrum Cognition and Decision", submitted to IEEE (Under Review).
 - Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chao-Sheng Tang, Mohamed Ramy El-Maarry, Yao-Wen Yang, Lin Li, Bin Shi. “Drying Induces Mars Intermediate-Sized Cracks: New Evidence and Insight from Geometrical Quantification”. (Under Review) (Co-first author)
 - Fuhui Zhou, Chunyu Liu, <u><b>Hao Zhang</b></u>, Wei Wu, Qihui Wu, Derrick Wing Kwan Ng, Tony Q. S. Quek, and Chan-Byoung Chae, “SpectrumFM: A Foundation Model for Intelligent Spectrum Management”, submitted to IEEE (Under Review) [[arXiv](https://arxiv.org/abs/2505.06256)]
-- Shijin Zhao, Qihui Wu, Fuhui Zhou, <u><b>Hao Zhang</b></u>, Yang Huang, and Kai-Kuang Ma. “Cognitive Escape Reinforcement Learning for Complex Decision Making”. IEEE Transactions on Vehicular Technology (**Major Revision**)
 
 
 <!-- ## Papers -->
