@@ -1,49 +1,34 @@
 # Hao Zhang-个人学术主页
 
 
-I am now a 3rd year Ph.D. candidate under the supervision of Prof. Fuhui Zhou 
-in [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/) , 
-[Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn) . 
-I was selected as a member of Top-notch Postgraduate Innovative Talents Training "Yinhang Project" (研究生拔尖创新人才培养“引航计划”) of NUAA in 2022. 
+**Postdoctoral Fellow** @ [AI](https://ai.nuaa.edu.cn/).[Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn)<br>
+No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106<br>
 
-I am now a visiting Ph.D. student under the supervision of Assoc Prof [Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157)'s group in the [ School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee), [ Nanyang Technological University](https://www.ntu.edu.sg/) supported by Chinese Government Scholarship from China Scholarship Council (*CSC*).
+I am currently a Postdoctoral Fellow at the [College of Artificial Intelligence](https://ai.nuaa.edu.cn),  [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn) (NUAA). In 2022, I was selected as a member of NUAA's Top-notch Postgraduate Innovative Talents Training "Yinhang Project" (南京航空航天大学研究生拔尖创新人才培养"引航计划").
 
-I have just received a Master of Engineering degree from [Nanchang University](http://www.ncu.edu.cn), 
-majoring in Electrical and Communication Engineering. 
-Before that, I received a B.S. degree in Internet of Things Engineering from [Nanchang University](http://www.ncu.edu.cn) in 2017. 
+I received my Ph.D. degree from the [College of Electronic and Information Engineering](http://ceie.nuaa.edu.cn/), [Nanjing University of Aeronautics and Astronautics](http://www.nuaa.edu.cn) in June 2025. Prior to that, I obtained my Master of Engineering degree (2020) and Bachelor's degree (2017) from Nanchang University, majoring in Electrical and Communication Engineering and Internet of Things Engineering, respectively.
 
-Until now, I have published over 15 papers (citation: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" class="linimage"/></a>, H index: <a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" class="linimage"/></a>), including *one ESI highly cited paper*.
+From January to December 2024, I was a visiting Ph.D. student under the supervision of Associate Professor Chau Yuen (IEEE Fellow) at the [School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee), [Nanyang Technological University](https://www.ntu.edu.sg/), supported by a Chinese Government Scholarship from the China Scholarship Council (CSC).
 
-My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com) and Github [https://haozhangcn.github.io](https://haozhangcn.github.io)
-
-<a href="cn_index.html">[中文简介]</a>
-
-我目前是[南京航空航天大学](http://www.nuaa.edu.cn) [电子信息工程学院](http://ceie.nuaa.edu.cn/) 的博士研究生，指导老师为周福辉教授。
-我于2022年入选南京航空航天大学**研究生拔尖创新人才培养“引航计划”**。
-我于2024年1月加入[ 南洋理工大学](https://www.ntu.edu.sg/)  [ 电气与电子工程学院](https://www.ntu.edu.sg/eee) Assoc Prof [ Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157) 课题组，作为**国家留学基金委(CSC)**资助的联合培养博士研究生。
-我分别于2017年和2020年在[南昌大学](http://www.ncu.edu.cn)获得物联网工程专业学士学位和电子与通信工程硕士学位。
-到目前为止，我已发表论文10余篇（引用：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fcitation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" class="linimage"/></a>，H指数：<a href="https://scholar.google.com/citations?user=zs9DkEAAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index" class="linimage"/></a>)），其中包括<font color="red">一篇ESI高被引论文</font>。
-
-
-## News
-- **Jan 1 2024**. I am now in Singpore, and I will work in NTU as a visiting Ph.D. student in year 2024.
-- **Nov 27 2023**. I will join Assoc Prof [Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157)'s group in the [School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee ), [Nanyang Technological University](https://www.ntu.edu.sg/) in Jan 2024.
-- **Oct 27 2023**. *<font color="red">Our paper “Automatic Soil Desiccation Crack Recognition Using Deep Learning” was selected as the insightful paper on Artificial Intelligence and Statistics in geotechnics published in the decade 2013‑2023 by Géotechnique.</font>* 
-- **July 26 2023**. I was awarded the Chinese Government Scholarship by the Chinese Scholarship Council (CSC).
-- **June 7 2023**. Our project is officially supported by the Postgraduate Research & Practice Innovation Program of Jiangsu Province (Grant No. KYCX23_0380).
-- **June 6 2023**. Our two papers are accepted by Ucom 2023, which will be held in Xi’an, on July 7-9th 2023.
-- **Apr 20 2023**. Our project is supported by the Interdisciplinary Innovation Fund for Doctoral Students of NUAA (No. KXKCXJJ202302).
+Until now, I have published over 30 papers (citations: [![GoogleCitations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ), H index: [![hindex](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ) ), including `one ESI highly cited paper`.
 
 
 ## Research Interests
-
-- **Deep Convolutional Neural Networks (DCNN)** is a class of artificial neural network with multiple layers between the input and output layers, most commonly applied to analyzing visual imagery.
-
 - **Radio Frequency Machine Learning (RFML)** aims to apply machine learning and deep learning for a multitude of tasks in wireless communications, such as signal classification, spectrum sensing and signal identification and cognitive radio.
+- **Foundation Models**, also known as large AI model, are AI models designed to produce a wide and general variety of outputs. We are focusing on the application of foundation models in wireless communications and geoscience.
 
-## Projects \[[more](https://haozhangcn.github.io/project.html)\]
-- “Few Sample Modulation Identification under High Dynamic Environment”, *Postgraduate Research & Practice Innovation Program of Jiangsu Province* (Grant No. KYCX23_0380), 15,000 RMB.
+
+## Education
+- **Ph.D**, Information and Communication Engineering, NUAA, Apr 2021-Jun 2025.
+- **Visiting Ph.D. student**, Nanyang Technological University, Jan 2024-Dec 2024.
+- **Research assistant**, Information and Communication Engineering, NUAA, Jul 2020-Mar 2021.
+- **M.Eng.**, Electrical and Communication Engineering, Nanchang University, Jun 2020.
+- **B.S.**, Internet of Things Engineering, Nanchang University, Jun 2017.
+
+## <a href="{{ '/projects/' | relative_url }}" style="color: inherit" >Projects</a>
+- “Few Sample Modulation Identification under High Dynamic Environment”, *Postgraduate Research & Practice Innovation Program of Jiangsu Province* (Grant No. KYCX23_0380), 15,000 RMB. [[HTML](/projects/fsamc/)]
 - “Research on Comprehensive Mechanical Performance of Coral Concrete Foundation Island and Reef Wind Turbines Based on Interpretable Deep Learning”, *Interdisciplinary Innovation Fund for Doctoral Students of NUAA* (No. KXKCXJJ202302), 100,000 RMB.
+
 
 
 
@@ -126,7 +111,5 @@ My homepage is hosted in server [https://haozhangcn.com](https://haozhangcn.com)
     - [mailto:haozhangcn@ieee.org] | [mailto:email@haozhangcn.com] 
 
 ### Offices
-- **Address in Singpore**: School of Electrical & Electronic Engineering (EEE), Nanyang Technological University, 50 Nanyang Avenue, Singapore 639798
-
-- **Address in Nanjing**: No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106
+- **Address**: No.29, Jiangjun Avenue, Jiangning District, Nanjing, Jiangsu, China, 211106
 

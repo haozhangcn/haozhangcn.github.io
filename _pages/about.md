@@ -25,7 +25,7 @@ I received my Ph.D. degree from the [College of Electronic and Information Engin
 
 From January to December 2024, I was a visiting Ph.D. student under the supervision of Associate Professor Chau Yuen (IEEE Fellow) at the [School of Electrical & Electronic Engineering](https://www.ntu.edu.sg/eee), [Nanyang Technological University](https://www.ntu.edu.sg/), supported by a Chinese Government Scholarship from the China Scholarship Council (CSC).
 
-Until now, I have published over 25 papers (citations: [![GoogleCitations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ), H index: [![hindex](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ) ), including `one ESI highly cited paper`.
+Until now, I have published over 30 papers (citations: [![GoogleCitations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ), H index: [![hindex](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ) ), including `one ESI highly cited paper`.
 
 
 ## Research Interests
