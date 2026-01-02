@@ -42,10 +42,12 @@ I serve as reviewers for multiple disciplines, including AI, wireless communicat
 - Journal of Sensors
 - Applied Sciences
 
-### Conference Reviewers
+### Conference TPCs and Reviewers
+- TPC member of IEEE ICC 2026-SACccn
+- TPC member of IEEE ICC 2025-SAC-02 CCNS track
+- TPC member of CITIC 2024/2025
 - IEEE WCSP 2020
-- IEEE GLOBECOM 2021/2024
-- IEEE GLOBECOM 2022 Workshop
+- IEEE GLOBECOM 2021/2022/2024
 - IEEE ICCC 2022
 - IEEE VTC2022-Fall
 
