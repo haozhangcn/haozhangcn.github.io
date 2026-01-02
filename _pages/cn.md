@@ -18,10 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 **张浩**<br>
-**博士后研究员** @  [人工智能学院](https://ai.nuaa.edu.cn/) [南京航空航天大学](http://www.nuaa.edu.cn)<br> 
+**助理研究员/博士后** @  [人工智能学院](https://ai.nuaa.edu.cn/) [南京航空航天大学](http://www.nuaa.edu.cn)<br> 
 江苏省南京市江宁区将军大道29号, 211106<br>
 
-我目前是[南京航空航天大学](http://www.nuaa.edu.cn) (NUAA) [人工智能学院](https://ai.nuaa.edu.cn/) 的博士后研究员。2022年，我入选南京航空航天大学研究生拔尖创新人才培养"引航计划"。
+我目前是[南京航空航天大学](http://www.nuaa.edu.cn) (NUAA) [人工智能学院](https://ai.nuaa.edu.cn/) 的助理研究员/博士后。2022年，我入选南京航空航天大学研究生拔尖创新人才培养"引航计划"。
 
 我于2025年6月获得[南京航空航天大学](http://www.nuaa.edu.cn) [电子信息工程学院](http://ceie.nuaa.edu.cn/)博士学位（信息与通信工程）。此前，我分别于2017年和2020年在[南昌大学](http://www.ncu.edu.cn) 获得物联网工程专业学士学位和电子与通信工程硕士学位。 
 

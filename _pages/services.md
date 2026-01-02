@@ -50,6 +50,7 @@ I serve as reviewers for multiple disciplines, including AI, wireless communicat
 - IEEE VTC2022-Fall
 
 ## Awards and Honors
+- Excellent Doctoral Dissertation Award of China Electronics Education Society (CESE), Dec 2025.
 - Chinese Government Scholarship, Chinese Scholarship Council (CSC), Jul 2023.
 - Top-notch Postgraduate Innovative Talents Training “Yinhang Project”, May 2022.
 - Outstanding Graduates of Nanchang University (4%), Jun 2020.
