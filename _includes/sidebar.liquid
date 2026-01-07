@@ -1,23 +1,64 @@
-{% if page.profiles or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src=
-        {% if s.image contains "://" %}
-          "{{ s.image }}"
-        {% else %}
-          "{{ s.image | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-    {% endfor %}
-    {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
-    {% endif %}
-  {% endif %}
+<div class="sidebar-content">
+  {% if site.sidebar_img %}
+  <div class="text-center mb-4">
+    <img src="{{ site.sidebar_img | prepend: '/assets/img/' | relative_url }}" 
+         class="img-fluid rounded-circle z-depth-1" 
+         style="width: 100%; max-width: 200px;" alt="profile">
   </div>
-{% endif %}
+  {% endif %}
+
+  <div class="text-center mb-4">
+    <h2 class="font-weight-bold" style="font-family: var(--global-font-family);">{{ site.first_name }} {{ site.last_name }}</h2>
+    <p class="text-muted">{{ site.position }} @ {{ site.affiliation_short }}</p>
+  </div>
+
+  <div class="sidebar-links">
+    {% if site.location %}
+    <div class="sidebar-item">
+      <i class="fas fa-map-marker-alt"></i><span>{{ site.location }}</span>
+    </div>
+    {% endif %}
+
+    {% if site.affiliation %}
+    <div class="sidebar-item">
+      <i class="fas fa-university"></i><span>{{ site.affiliation }}</span>
+    </div>
+    {% endif %}
+
+    {% if site.email %}
+    <div class="sidebar-item">
+      <i class="fas fa-envelope"></i><a href="mailto:{{ site.email }}">Email</a>
+    </div>
+    {% endif %}
+
+    {% if site.scholar_userid %}
+    <div class="sidebar-item">
+      <i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank">Google Scholar</a>
+    </div>
+    {% endif %}
+
+    {% if site.orcid_id %}
+    <div class="sidebar-item">
+      <i class="ai ai-orcid"></i><a href="https://orcid.org/{{ site.orcid_id }}" target="_blank">ORCID</a>
+    </div>
+    {% endif %}
+
+    {% if site.github_username %}
+    <div class="sidebar-item">
+      <i class="fab fa-github"></i><a href="https://github.com/{{ site.github_username }}" target="_blank">Github</a>
+    </div>
+    {% endif %}
+
+    {% if site.researchgate_username %}
+    <div class="sidebar-item">
+      <i class="ai ai-researchgate"></i><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}" target="_blank">ResearchGate</a>
+    </div>
+    {% endif %}
+
+    {% if site.cv_url %}
+    <div class="sidebar-item">
+      <i class="fas fa-file-pdf"></i><a href="{{ site.cv_url | prepend: '/assets/pdf/' | relative_url }}" target="_blank">CV</a>
+    </div>
+    {% endif %}
+  </div>
+</div>

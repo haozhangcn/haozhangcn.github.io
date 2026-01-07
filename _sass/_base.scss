@@ -19,37 +19,19 @@ strong {
   color: var(--global-text-color);
 }
 
-// Text justification for main content areas
-.post-content,
-.page-content,
-.about,
-.cv,
-.publications,
-.selected {
-  text-align: justify;
-  text-justify: inter-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  
-  // Keep headings left-aligned
-  h1, h2, h3, h4, h5, h6 {
-    text-align: left;
+hr {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+table {
+  td,
+  th {
+    font-size: 1rem;
+    padding: 1px 1rem 1px 0;
   }
-  
-  // Keep code blocks left-aligned
-  pre, code, .highlight {
-    text-align: left;
-  }
-  
-  // Keep blockquotes left-aligned (optional, you can remove this if you want justified blockquotes)
-  blockquote {
-    text-align: left;
-  }
-  
-  // For mobile devices, use left alignment for better readability
-  @media (max-width: 768px) {
-    text-align: left;
+
+  th {
+    font-weight: bold;
   }
 }
 
@@ -91,22 +73,6 @@ h5 {
 
 h6 {
   font-size: $type-size-6;
-}
-
-hr {
-  border-top: 1px solid var(--global-divider-color);
-}
-
-table {
-  td,
-  th {
-    font-size: 1rem;
-    padding: 1px 1rem 1px 0;
-  }
-
-  th {
-    font-weight: bold;
-  }
 }
 
 a,
@@ -264,16 +230,14 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
-
 // Profile
 
 .profile {
   width: 100%;
-  text-align: center;
-  
+
   .more-info {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
     font-family: monospace;
 
     p {
@@ -294,8 +258,8 @@ ul.task-list input[type="checkbox"] {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
-  
-      .address {
+
+    .address {
       p {
         display: block;
       }
@@ -329,6 +293,8 @@ ul.task-list input[type="checkbox"] {
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
+  min-width: 1rem;
+  width: fit-content;
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -387,6 +353,24 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
+      img {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+        // margin: 0.5rem;
+      }
+
+      svg {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 1.7rem;
+          height: 1.7rem;
+        }
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -459,15 +443,34 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 2rem;
+    font-size: 4rem;
 
     a {
+      img {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-bottom: 1rem;
+      }
+
+      svg {
+        width: 3.5rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
+        text-decoration: none;
+
         i::before {
           color: var(--global-theme-color);
         }
@@ -665,6 +668,7 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+      padding: 0.75rem 1.15rem;
 
       &:hover {
         color: $black-color;
@@ -1264,6 +1268,42 @@ ninja-keys {
   --ninja-icon-size: 0px;
   --ninja-modal-background: var(--global-bg-color);
   --ninja-z-index: 1031;
+
+  // modal footer and its components were extracted from assets/js/search/base-styles.min.js
+  .modal-footer {
+    padding: 0.5em 1em;
+    display: flex;
+    /* font-size: 0.75em; */
+    border-top: 1px solid var(--ninja-secondary-background-color);
+    color: var(--ninja-secondary-text-color);
+  }
+
+  .modal-footer .help {
+    display: flex;
+    margin-right: 1em;
+    align-items: center;
+    font-size: 0.75em;
+  }
+
+  .ninja-examplekey {
+    background: var(--ninja-secondary-background-color);
+    padding: 0.06em 0.25em;
+    border-radius: var(--ninja-key-border-radius);
+    color: var(--ninja-secondary-text-color);
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    font-size: 1.25em;
+    fill: currentColor;
+  }
+  .ninja-examplekey.esc {
+    width: auto;
+    height: auto;
+    font-size: 1.1em;
+  }
+  .ninja-examplekey.backspace {
+    opacity: 0.7;
+  }
 }
 
 ninja-keys::part(ninja-input) {
@@ -1430,4 +1470,166 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+figure.cover {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5rem; /* adjust as needed */
+
+  img {
+    vertical-align: bottom;
+  }
+
+  figcaption.abandoned {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #ee5f5b;
+  }
+
+  figcaption.finished,
+  figcaption.watched {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #62c462;
+  }
+
+  figcaption.interested {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #7691db;
+  }
+
+  figcaption.paused {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #bdac7e;
+  }
+
+  figcaption.queued {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #9e76b5;
+  }
+
+  figcaption.reading,
+  figcaption.watching {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #f89406;
+  }
+
+  figcaption.reread,
+  figcaption.rewatch {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #a6517d;
+  }
+
+  figcaption.uncategorized {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #b0abb3;
+  }
+
+  /* mouse over link */
+  a.cover-link:hover {
+    color: #23212d !important;
+  }
+}
+
+// sidebar info list
+.sidebar-info-list {
+  font-size: 1.01rem;
+  line-height: 2.2; /* 控制行间距 */
+}
+
+.sidebar-info-list li {
+  display: flex;
+  align-items: center;
+  color: #444;
+}
+
+.sidebar-info-list i {
+  width: 30px; /* 固定图标宽度，确保后面文字垂直对齐 */
+  font-size: 1.3rem;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.sidebar-info-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar-info-list a:hover {
+  color: var(--global-theme-color);
+}
+
+/* 侧边栏整体容器 */
+#sidebar {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* 信息项布局 */
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+  color: var(--global-text-color);
+}
+
+/* 图标固定宽度 */
+.sidebar-item i {
+  width: 35px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.sidebar-item a {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.sidebar-item a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+/* 粘性悬浮（当页面内容很长时） */
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px; /* 避开顶部导航栏 */
+  z-index: 10;
+}
+
+/* 针对 About 等页面正文中的列表间距修改 */
+.post article {
+  ul, ol {
+    margin-top: 10px;      /* 列表整体距离上方文字的间距 */
+    margin-bottom: 15px;   /* 列表整体距离下方文字的间距 */
+    
+    li {
+      margin-bottom: 8px;  /* 每个列表项(item)之间的间距 */
+      line-height: 1.6;    /* 行高，增加可读性 */
+      
+      /* 处理嵌套列表的间距 */
+      ul, ol {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
