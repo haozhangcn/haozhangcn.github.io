@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉🎉🎉Our paper "Revolution of Wireless Signal Recognition for 6G: Recent Advances, Challenges and Future Directions" is accepted by **IEEE Communications Surveys & Tutorials**.
+🎉🎉🎉文章 "Revolution of Wireless Signal Recognition for 6G: Recent Advances, Challenges and Future Directions" 被 **IEEE Communications Surveys & Tutorials** 接收.

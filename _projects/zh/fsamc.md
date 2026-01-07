@@ -7,12 +7,12 @@ importance: 1
 category: PI
 ---
 
-Traditional modulation recognition techniques and channel coding identification methods are showing increasing limitations in terms of recognition accuracy, computational complexity, and recognition timeliness, especially in complex electromagnetic spectrum environments and strong adversarial electromagnetic environments in combat scenarios. They are no longer able to cope with complex electromagnetic spectrum environments. In recent years, with the development of artificial intelligence and machine learning, AI technologies represented by deep learning have achieved great success in computer vision, natural language processing and other fields. Applying AI to modulation recognition has also been increasingly reported. However, current AI-based modulation recognition techniques tend to use large amounts of labeled samples for supervised training, but still cannot achieve good performance under low signal-to-noise ratios and lack of prior information, making them difficult to apply in practice. Therefore, to address the challenges faced by AI-based modulation recognition in practical applications in highly dynamic environments, there is an urgent need to conduct in-depth research on few-shot modulation recognition techniques.
+传统的调制识别技术和信道编码识别方法在识别精度、计算复杂度和识别时效性方面日益凸显其局限性，尤其是在复杂的电磁频谱环境和作战场景中强对抗性电磁环境下，它们已难以应对复杂的电磁频谱环境。近年来，随着人工智能和机器学习的发展，以深度学习为代表的人工智能技术在计算机视觉、自然语言处理等领域取得了巨大成功。将人工智能应用于调制识别的研究也日益增多。然而，目前基于人工智能的调制识别技术往往需要大量标注样本进行监督训练，但在低信噪比和缺乏先验信息的情况下仍然难以取得良好的性能，难以在实际应用中发挥作用。因此，为了解决基于人工智能的调制识别技术在高度动态环境下实际应用中面临的挑战，迫切需要对少样本调制识别技术进行深入研究。
 
-
-### Related Publications
+### 相关文章
 
 1. <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Naofal Al-Dhahir. “SSwsrNet: A Semi-Supervised Few-Shot Learning Framework for Wireless Signal Recognition.” IEEE Transactions on Communications, vol. 72, no. 9, pp. 5823-5836, doi: 10.1109/TCOMM.2024.3385921. [[HTML](http://doi.org/10.1109/TCOMM.2024.3385921)] [[Arxiv](https://arxiv.org/abs/2404.02467)]
-2. <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. “FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification.” In 16th International Conference on Wireless Communications and Signal Processing (WCSP 2024).
-3. <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen.“FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification under Multipath Fading Channels”, *IEEE Transactions on Wireless Communications* (Under Review)
+2. <u><b>Hao Zhang</b></u>, Hao Zhang, Fuhui Zhou, Qihui Wu, and Chau Yuen. "FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification." In 2024 16th International Conference on Wireless Communications and Signal Processing (WCSP), doi: 10.1109/WCSP62071.2024.10826902.
+3. <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. "FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification Over Multipath Fading Channels." IEEE Internet of Things Journal, vol. 12, no. 12, pp. 18718-18731, doi: 10.1109/JIOT.2025.3557973. [HTML](http://doi.org/10.1109/JIOT.2025.3557973) [arXiv](https://arxiv.org/abs/2410.10265)
+
 

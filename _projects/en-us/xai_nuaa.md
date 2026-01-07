@@ -12,8 +12,3 @@ This project is supported by Interdisciplinary Innovation Fund for Doctoral Stud
 Jianbo Guo, <u><b>Hao Zhang</b></u>, and Hongxin Wu (Co-PI)<br>
 which is a part of the Top-notch Postgraduate Innovative Talents Training “Yinhang Project” (南京航空航天大学研究生拔尖创新人才培养“引航计划”) of NUAA
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/yinhang.png" title="yinhang" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
