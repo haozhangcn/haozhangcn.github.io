@@ -109,7 +109,7 @@
             <em>{{ entry.title }}</em>,
             {{ entry.publisher }},
         {% endif %}
-
+        {if entry.year %} {{ entry.year }}, 
         <!-- DOI and HTML -->
         {% if entry.doi %}
             doi: {{ entry.doi }}. [<a href="http://doi.org/{{ entry.doi }}" role="button" style="padding-top: 0em; padding-bottom: 0px;">HTML</a>]
