@@ -17,7 +17,6 @@ nav_order: 2
 
 ## 预印本
 - <u><b>Hao Zhang</b></u>, Chunyu Liu, Fuhui Zhou, and Qihui Wu. "Spectrum Foundation Model: A New Paradigm Towards General Spectrum Cognition and Decision", submitted to IEEE (Under Review).
-- Jin-Jian Xu, <u><b>Hao Zhang</b></u>, Chao-Sheng Tang, Mohamed Ramy El-Maarry, Yao-Wen Yang, Lin Li, Bin Shi. “Drying Induces Mars Intermediate-Sized Cracks: New Evidence and Insight from Geometrical Quantification”. (Under Review) (Co-first author)
 
 
 <!-- _pages/publications.md -->
