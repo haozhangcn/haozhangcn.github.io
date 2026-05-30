@@ -24,7 +24,7 @@ social: false # includes social icons at the bottom of the page
 2025年6月获得[南京航空航天大学](http://www.nuaa.edu.cn)博士学位; 2024年于新加坡南洋理工大学联合培养(师从IEEE Fellow [Chau Yuen](https://dr.ntu.edu.sg/cris/rp/rp02157)教授)；
 此前, 分别于2017年和2020年在[南昌大学](http://www.ncu.edu.cn) 获得学士、硕士学位。 
 长期从事电磁信号智能处理理论与方法研究，已在IEEE COMST、IEEE JSAC、IEEE TIFS、IEEE TCOM、IEEE TCCN等国际通信权威期刊或会议发表论文30余篇，
-谷歌学术引用： [![GoogleCitations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)，H指数：[![hindex](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)），其中包括`一篇ESI高被引论文`；
+谷歌学术引用： [![GoogleCitations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)，H指数：[![hindex](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&labelColor=f6f6f6&color=9cf&style=flat&label=H-index)](https://scholar.google.com/citations?user=zs9DkEAAAAAJ)），其中包括`2篇ESI高被引论文`和`一篇封面文章`；
 申请/授权发明专利4项；参与制定国际标准1项；
 获得**中国电子教育学会2025年度优秀博士学位论文**，入选南京航空航天大学研究生拔尖创新人才培养“引航计划”。
 长期担任通信领域IEEE JSAC、IEEE TWC、IEEE TCOM、IEEE WCM，人工智能领域IEEE TNNLS、IEEE JSTARS、IEEE GRSM、IEEE CIM、ACM MM等期刊会议审稿人；曾担任IEEE ICC、IEEE CITIC等国际会议的TPC Member。
