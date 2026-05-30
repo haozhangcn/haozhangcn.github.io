@@ -126,7 +126,7 @@
         ]{% endif %}
 
         {% if entry.award %}
-        <span style="color: red; margin-left: 10px;">
+        <span style="color: red; font-weight: bold; margin-left: 8px;">
             {{ entry.award | markdownify | remove: '<p>' | remove: '</p>' }}
         </span>
         {% endif %}
