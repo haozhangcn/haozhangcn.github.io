@@ -20,23 +20,23 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zh/";
     },
-  },{id: "nav-文章",
-          title: "文章",
-          description: "",
+  },{id: "nav-论文",
+          title: "论文",
+          description: "频谱智能、无线通信、信号处理与大模型方向的学术成果。",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh/publications/";
           },
         },{id: "nav-项目",
           title: "项目",
-          description: "",
+          description: "聚焦频谱智能、信号处理与可信人工智能的研究项目。",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh/projects/";
           },
-        },{id: "nav-社会荣誉",
-          title: "社会荣誉",
-          description: "社会服务及个人荣誉",
+        },{id: "nav-学术服务",
+          title: "学术服务",
+          description: "专业组织、期刊审稿、会议服务及个人荣誉。",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh/services/";

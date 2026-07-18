@@ -22,21 +22,21 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "Peer-reviewed research on spectrum intelligence, wireless communications, signal processing, and foundation models.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects in spectrum intelligence, signal processing, and trustworthy AI.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-services",
-          title: "services",
-          description: "",
+        },{id: "nav-academic-service",
+          title: "Academic Service",
+          description: "Professional memberships, peer review, conference service, awards, and honors.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/services/";
