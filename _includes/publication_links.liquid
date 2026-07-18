@@ -1,0 +1,173 @@
+{% if entry.doi %}
+  {% assign doi_url = entry.doi %}
+  {% unless entry.doi contains '://' %}
+    {% assign doi_url = entry.doi | prepend: 'https://doi.org/' %}
+  {% endunless %}
+{% endif %}
+<nav class="publication-links{% if include.inline %} publication-links--inline{% endif %}" aria-label="Publication resources">
+  {% if include.interactive and entry.award %}
+    <a class="publication-link award" role="button" title="Show award details" aria-label="Show award details">
+      <i class="fas fa-award" aria-hidden="true"></i>
+      <span>{% if entry.award_name %}{{ entry.award_name }}{% else %}Award{% endif %}</span>
+    </a>
+  {% endif %}
+  {% if include.interactive and entry.abstract %}
+    <a class="publication-link abstract" role="button" title="Show abstract" aria-label="Show abstract">
+      <i class="fas fa-align-left" aria-hidden="true"></i>
+      <span>Abstract</span>
+    </a>
+  {% endif %}
+  {% if entry.doi %}
+    <a
+      class="publication-link"
+      href="{{ doi_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open DOI"
+      aria-label="Open DOI {{ entry.doi }}"
+    >
+      <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      <span>DOI</span>
+    </a>
+  {% elsif entry.html %}
+    <a
+      class="publication-link"
+      href="{% if entry.html contains '://' %}{{ entry.html }}{% else %}{{ entry.html | prepend: '/assets/html/' | relative_url }}{% endif %}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open article page"
+      aria-label="Open article page"
+    >
+      <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      <span>HTML</span>
+    </a>
+  {% endif %}
+  {% if entry.arxiv %}
+    <a
+      class="publication-link"
+      href="https://arxiv.org/abs/{{ entry.arxiv }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open arXiv preprint"
+      aria-label="Open arXiv preprint {{ entry.arxiv }}"
+    >
+      <i class="fas fa-file-lines" aria-hidden="true"></i>
+      <span>arXiv</span>
+    </a>
+  {% endif %}
+  {% if entry.pdf %}
+    <a
+      class="publication-link"
+      href="{% if entry.pdf contains '://' %}{{ entry.pdf }}{% else %}{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}{% endif %}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open PDF"
+      aria-label="Open PDF"
+    >
+      <i class="fas fa-file-pdf" aria-hidden="true"></i>
+      <span>PDF</span>
+    </a>
+  {% endif %}
+  {% if entry.code %}
+    <a
+      class="publication-link"
+      href="{{ entry.code }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open source code"
+      aria-label="Open source code"
+    >
+      <i class="fas fa-code" aria-hidden="true"></i>
+      <span>Code</span>
+    </a>
+  {% endif %}
+  {% if entry.supp %}
+    <a
+      class="publication-link"
+      href="{% if entry.supp contains '://' %}{{ entry.supp }}{% else %}{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}{% endif %}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open supplementary material"
+      aria-label="Open supplementary material"
+    >
+      <i class="fas fa-paperclip" aria-hidden="true"></i>
+      <span>Supplement</span>
+    </a>
+  {% endif %}
+  {% if entry.video and site.enable_video_embedding %}
+    <a class="publication-link abstract" role="button" title="Show video" aria-label="Show video">
+      <i class="fas fa-circle-play" aria-hidden="true"></i>
+      <span>Video</span>
+    </a>
+  {% elsif entry.video %}
+    <a
+      class="publication-link"
+      href="{{ entry.video }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open video"
+      aria-label="Open video"
+    >
+      <i class="fas fa-circle-play" aria-hidden="true"></i>
+      <span>Video</span>
+    </a>
+  {% endif %}
+  {% if entry.blog %}
+    <a
+      class="publication-link"
+      href="{{ entry.blog }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open related article"
+      aria-label="Open related article"
+    >
+      <i class="fas fa-pen-to-square" aria-hidden="true"></i>
+      <span>Blog</span>
+    </a>
+  {% endif %}
+  {% if entry.poster %}
+    <a
+      class="publication-link"
+      href="{% if entry.poster contains '://' %}{{ entry.poster }}{% else %}{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}{% endif %}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open poster"
+      aria-label="Open poster"
+    >
+      <i class="fas fa-image" aria-hidden="true"></i>
+      <span>Poster</span>
+    </a>
+  {% endif %}
+  {% if entry.slides %}
+    <a
+      class="publication-link"
+      href="{% if entry.slides contains '://' %}{{ entry.slides }}{% else %}{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}{% endif %}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open slides"
+      aria-label="Open slides"
+    >
+      <i class="fas fa-display" aria-hidden="true"></i>
+      <span>Slides</span>
+    </a>
+  {% endif %}
+  {% if entry.website %}
+    <a
+      class="publication-link"
+      href="{{ entry.website }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open project website"
+      aria-label="Open project website"
+    >
+      <i class="fas fa-globe" aria-hidden="true"></i>
+      <span>Website</span>
+    </a>
+  {% endif %}
+  {% if include.interactive and entry.bibtex_show %}
+    <a class="publication-link bibtex" role="button" title="Show BibTeX" aria-label="Show BibTeX">
+      <i class="fas fa-quote-right" aria-hidden="true"></i>
+      <span>BibTeX</span>
+    </a>
+  {% endif %}
+</nav>

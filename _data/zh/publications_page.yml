@@ -1,0 +1,18 @@
+scholar_prompt: 完整且持续更新的论文列表请查看谷歌学术主页。
+scholar_action: 打开谷歌学术
+search_placeholder: 按标题、作者、期刊或年份检索论文
+theses_heading: 学位论文
+theses:
+  - text: >-
+      **张浩**. *快速高效小目标检测网络算法研究* [D]. 南昌大学，2020.
+      [HTML](https://kns.cnki.net/KCMS/detail/detail.aspx?dbname=CMFD202101&filename=1020056234.nh)
+  - text: >-
+      **张浩**. *复杂电磁环境下无线信号智能识别方法* [D]. 南京航空航天大学，2025.
+    note: 中国电子教育学会2025年度优秀博士学位论文
+preprints_heading: 预印本
+preprints:
+  - text: >-
+      **Hao Zhang**, Chunyu Liu, Fuhui Zhou, and Qihui Wu. “Spectrum Foundation Model: A New Paradigm Towards General
+      Spectrum Cognition and Decision,” submitted to IEEE (under review).
+journals_heading: 期刊论文
+conferences_heading: 会议论文

@@ -9,7 +9,7 @@ bibliography:
   blog: 博客
   book_prefix: 收录于
   code: 代码
-  last_author_prefix: 以及
+  last_author_prefix: and
   poster: 海报
   slides: 幻灯片
   supp: 补充材料
@@ -160,4 +160,4 @@ search:
     title: 系统默认
   theme: 主题设置
 selected_publications: 代表性论文
-site_description: 一个简洁、留白的学术主页主题。基于 [*folio](https://github.com/bogoli/-folio) 设计。
+site_description: 张浩，哈利法大学数字未来研究院博士后，研究方向包括频谱智能、无线通信、信号处理与大模型。

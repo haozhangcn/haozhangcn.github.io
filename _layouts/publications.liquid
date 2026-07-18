@@ -1,0 +1,51 @@
+---
+layout: page
+---
+{% assign publication_page = site.data[site.active_lang].publications_page %}
+
+<aside class="scholar-callout">
+  <div>
+    <span class="scholar-callout-label">Google Scholar</span>
+    <p>{{ publication_page.scholar_prompt }}</p>
+  </div>
+  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">
+    {{ publication_page.scholar_action }} <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+  </a>
+</aside>
+
+<section class="publication-intro-section">
+  <h2>{{ publication_page.theses_heading }}</h2>
+  <ol class="publication-notes">
+    {% for thesis in publication_page.theses %}
+      <li>
+        {{ thesis.text | markdownify }}
+        {% if thesis.note %}<span class="publication-note">{{ thesis.note }}</span>{% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="publication-intro-section">
+  <h2>{{ publication_page.preprints_heading }}</h2>
+  <ol class="publication-notes">
+    {% for preprint in publication_page.preprints %}
+      <li>{{ preprint.text | markdownify }}</li>
+    {% endfor %}
+  </ol>
+</section>
+
+{% include bib_search.liquid placeholder=publication_page.search_placeholder %}
+
+<section class="publication-listing">
+  <h2>{{ publication_page.journals_heading }}</h2>
+  <div class="publications">
+    {% bibliography --template bib_compact --query @article %}
+  </div>
+</section>
+
+<section class="publication-listing">
+  <h2>{{ publication_page.conferences_heading }}</h2>
+  <div class="publications">
+    {% bibliography --template bib_compact --query @inproceedings %}
+  </div>
+</section>

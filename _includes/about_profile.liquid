@@ -1,0 +1,40 @@
+{% assign profile = site.data[site.active_lang].profile %}
+<section class="about-hero" aria-labelledby="about-profile-heading">
+  <p class="about-kicker">{{ profile.kicker }}</p>
+  <div class="about-affiliation">{{ profile.affiliation | markdownify }}</div>
+  <p class="about-address"><i class="fas fa-location-dot" aria-hidden="true"></i>{{ profile.address }}</p>
+  <p class="about-lead" id="about-profile-heading">{{ profile.lead }}</p>
+
+  <div class="about-summary">
+    {% for paragraph in profile.bio %}
+      {{ paragraph | markdownify }}
+    {% endfor %}
+
+    {% assign research_prefix = profile.research.prefix | markdownify | remove: '<p>' | remove: '</p>' %}
+    {% assign research_suffix = profile.research.suffix | markdownify | remove: '<p>' | remove: '</p>' %}
+    <p class="about-research-output">
+      {{ research_prefix }} {% include scholar_metrics.liquid %} {{ research_suffix }}
+    </p>
+
+    {{ profile.service | markdownify }}
+  </div>
+
+  <div class="about-actions">
+    <a class="about-button primary" href="{{ '/publications/' | relative_url }}">{{ profile.actions.publications }}</a>
+    <a class="about-button" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">{{ profile.actions.scholar }}</a>
+    <a class="about-button" href="{{ site.cv_url | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer">{{ profile.actions.cv }}</a>
+  </div>
+</section>
+
+<section class="about-section research-section" aria-labelledby="research-interests-heading">
+  <h2 id="research-interests-heading">{{ profile.interests_heading }}</h2>
+  <div class="research-grid">
+    {% for interest in profile.interests %}
+      <article class="research-card">
+        <span class="research-index">0{{ forloop.index }}</span>
+        <h3>{{ interest.title }}</h3>
+        <p>{{ interest.description }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

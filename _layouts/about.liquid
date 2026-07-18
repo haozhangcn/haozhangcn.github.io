@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -11,7 +11,7 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle %}<p class="desc">{{ page.subtitle }}</p>{% endif %}
   </header>
 
   <article>
@@ -37,45 +37,33 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">
-      {% if content contains '<!--more-->' %}
-        {{ content | split:'<!--more-->' | first }}
-      {% else %}
-        {{ content }}
-      {% endif %}
-    </div>
+    {% include about_profile.liquid %}
 
+    {% include experience_timeline.liquid %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <section class="about-section news-section">
+        <h2><a class="section-heading-link" href="{{ '/news/' | relative_url }}">{{ site.data[site.active_lang].strings.news }}</a></h2>
+        {% include news.liquid limit=true %}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.latest_posts }}</a>
-      </h2>
-      {% include latest_posts.liquid %}
+      <section class="about-section latest-section">
+        <h2><a class="section-heading-link" href="{{ '/blog/' | relative_url }}">{{ site.data[site.active_lang].strings.latest_posts }}</a></h2>
+        {% include latest_posts.liquid %}
+      </section>
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="about-section selected-section">
+        <h2><a class="section-heading-link" href="{{ '/publications/' | relative_url }}">{{ site.data[site.active_lang].strings.selected_publications }}</a></h2>
+        {% include selected_papers.liquid %}
+      </section>
     {% endif %}
-
-    <!-- Remaining content -->
-    <div class="clearfix">
-      {% if content contains '<!--more-->' %}
-        {{ content | split:'<!--more-->' | last }}
-      {% endif %}
-    </div>
 
     <!-- Social -->
     {% if page.social %}

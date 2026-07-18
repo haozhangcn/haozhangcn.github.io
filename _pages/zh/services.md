@@ -2,8 +2,8 @@
 page_id: services
 layout: page
 permalink: /services/
-title: 社会荣誉
-description: 社会服务及个人荣誉
+title: 学术服务
+description: 专业组织、期刊审稿、会议服务及个人荣誉。
 nav: true
 nav_order: 6
 ---

@@ -1,8 +1,7 @@
 ---
 page_id: news
-layout: page
+layout: news
 title: news
 permalink: /news/
+description: Publications, awards, collaborations, and research milestones.
 ---
-
-{% include news.liquid %}

@@ -1,0 +1,60 @@
+---
+---
+<article class="home-publication">
+  {% if entry.doi %}
+    {% assign doi_url = entry.doi %}
+    {% unless entry.doi contains '://' %}
+      {% assign doi_url = entry.doi | prepend: 'https://doi.org/' %}
+    {% endunless %}
+  {% endif %}
+  <div class="home-publication-marker" aria-hidden="true">
+    {% if entry.year %}<span class="home-publication-year">{{ entry.year }}</span>{% endif %}
+    {% if entry.abbr %}<span class="home-publication-venue">{{ entry.abbr }}</span>{% endif %}
+  </div>
+
+  <div class="home-publication-body" id="{{ entry.key }}">
+    <h3 class="home-publication-title">
+      {% if entry.doi %}
+        <a href="{{ doi_url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+      {% elsif entry.html %}
+        <a href="{{ entry.html }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </h3>
+
+    <p class="home-publication-authors">
+      {%- for author in entry.author_array -%}
+        {% assign author_is_self = false %}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
+          {% assign author_is_self = true %}
+        {% endif %}
+        {%- if forloop.first == false -%}{% if forloop.last %} {{ site.data[site.active_lang].strings.bibliography.last_author_prefix }} {% else %}, {% endif %}{%- endif -%}
+        {%- if author_is_self -%}
+          <strong>{{ author.first }} {{ author_last_html }}</strong>
+        {%- else -%}
+          {{ author.first }} {{ author_last_html }}
+        {%- endif -%}
+      {%- endfor -%}
+    </p>
+
+    <p class="home-publication-meta">
+      {% if entry.type == 'article' and entry.journal %}<em>{{ entry.journal }}</em>{% endif %}
+      {% if entry.type == 'inproceedings' and entry.booktitle %}<em>{{ entry.booktitle }}</em>{% endif %}
+      {% if entry.volume != blank %}<span>vol. {{ entry.volume }}</span>{% endif %}
+      {% if entry.number != blank %}<span>no. {{ entry.number }}</span>{% endif %}
+      {% if entry.pages != blank %}<span>pp. {{ entry.pages }}</span>{% endif %}
+    </p>
+
+    {% include publication_links.liquid %}
+
+    {% if entry.award %}
+      <p class="home-publication-award">
+        <i class="fas fa-award" aria-hidden="true"></i>
+        {% if entry.award_name %}{{ entry.award_name }}{% else %}{{ entry.award | strip_html }}{% endif %}
+      </p>
+    {% endif %}
+  </div>
+</article>

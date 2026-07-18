@@ -1,6 +1,6 @@
 <div class="col mb-4">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
+  {% capture project_link %}{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}{% endcapture %}
+  <article class="card project-card h-100 hoverable">
       <div class="row no-gutters">
         {% if project.img %}
           <div class="col-md-6">
@@ -9,7 +9,8 @@
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
-            <h3 class="card-title">{{ project.title }}</h3>
+            <span class="project-type">0{{ forloop.index }} · {{ site.data[site.active_lang].strings.categories[project.category] | default: project.category }}</span>
+            <h3 class="card-title"><a href="{{ project_link }}">{{ project.title }}</a></h3>
             <p class="card-text">{{ project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
@@ -29,6 +30,5 @@
           </div>
         </div>
       </div>
-    </div>
-  </a>
+  </article>
 </div>

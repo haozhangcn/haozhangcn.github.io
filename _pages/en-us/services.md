@@ -2,8 +2,8 @@
 page_id: services
 layout: page
 permalink: /services/
-title: services
-description: 
+title: Academic Service
+description: Professional memberships, peer review, conference service, awards, and honors.
 nav: true
 nav_order: 6
 ---

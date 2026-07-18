@@ -6,12 +6,14 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
+  --global-font-family: "Roboto", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  --global-display-font-family: "Iowan Old Style", "Palatino Linotype", "Noto Serif SC", "Songti SC", Georgia, serif;
+  --global-bg-color: #ffffff;
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$light-blue};
-  --global-hover-color: #{$light-blue};
+  --global-theme-color: #137f98;
+  --global-hover-color: #0d6f86;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -19,6 +21,12 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
+  --global-soft-bg-color: #f7f9fa;
+  --global-soft-border-color: #e1e6e9;
+  --global-muted-text-color: #66747d;
+  --global-nav-bg-color: rgba(255, 255, 255, 0.9);
+  --global-accent-soft-color: #e7f3f6;
+  --global-shadow-color: rgba(24, 54, 64, 0.05);
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -78,19 +86,25 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #17191b;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #e8eaed;
+  --global-text-color-light: #aeb6bf;
+  --global-theme-color: #37b5cf;
+  --global-hover-color: #62cbe0;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
+  --global-footer-bg-color: #111315;
+  --global-footer-text-color: #aeb6bf;
+  --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-card-bg-color: #17191b;
+  --global-soft-bg-color: #202428;
+  --global-soft-border-color: #30363d;
+  --global-muted-text-color: #aeb6bf;
+  --global-nav-bg-color: rgba(21, 23, 25, 0.9);
+  --global-accent-soft-color: #193138;
+  --global-shadow-color: rgba(0, 0, 0, 0.18);
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},

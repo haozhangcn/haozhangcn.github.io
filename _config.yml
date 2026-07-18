@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Hao
 middle_name: 
 last_name: Zhang
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Hao Zhang, Khalifa University, Digital Future Institute, spectrum intelligence, wireless communications, foundation models, signal processing, artificial intelligence
 icon: icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://haozhangcn.github.io # the base hostname & protocol for your site
@@ -15,11 +15,11 @@ last_updated: true # set to true if you want to display last updated in the foot
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
-position: Assistant Researcher
-affiliation: AI.NUAA
-affiliation_short: AI.NUAA
-location: Nanjing
-email: haozhangcn@nuaa.edu.cn
+position: Postdoctoral Fellow
+affiliation: Digital Future Institute, Khalifa University
+affiliation_short: DFI · Khalifa University
+location: Abu Dhabi
+email: hao.zhang@ku.ac.ae
 scholar_userid: zs9DkEAAAAAJ
 orcid_id: 0000-0003-1923-589X
 github_username: haozhangcn
@@ -59,7 +59,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1000px
+max_width: 1120px
 
 # TODO: add layout settings (single page vs. multi-page)
 

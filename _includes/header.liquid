@@ -1,29 +1,11 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
-      {% endif %}
+      <a class="navbar-brand site-brand" href="{{ site.baseurl }}/" aria-label="{{ site.first_name }} {{ site.last_name }} home">
+        <span class="site-brand-name"><strong>{{ site.first_name }}</strong> {{ site.last_name }}</span>
+        <span class="site-brand-tagline">AI · Wireless · Spectrum</span>
+      </a>
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -120,8 +102,8 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              <button id="search-toggle" class="nav-icon-button" title="Search (Ctrl/⌘ K)" aria-label="Search" onclick="openSearchModal()">
+                <span class="nav-link"><i class="ti ti-search" aria-hidden="true"></i><span class="sr-only">Search</span></span>
               </button>
             </li>
           {% endif %}
@@ -133,13 +115,15 @@
               {% else %}
                 {% assign other_language = site.languages.first %}
               {% endif %}
-              <li class="nav-item active">
+              <li class="nav-item language-toggle">
                 {% if site.active_lang == site.default_lang %}
                   <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
                     {% if site.country_flag %}
                       <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
+                    {% elsif other_language == 'zh' %}
+                      中文
                     {% else %}
-                      {{ other_language | upcase }}
+                      English
                     {%- endif -%}
                   </a>
                 {% else %}
@@ -147,7 +131,7 @@
                     {% if site.country_flag %}
                       <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
                     {% else %}
-                      {{ site.default_lang | upcase }}
+                      English
                     {%- endif -%}
                   </a>
                 {% endif %}

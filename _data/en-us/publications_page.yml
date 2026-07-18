@@ -1,0 +1,19 @@
+scholar_prompt: View the complete and most up-to-date publication record on Google Scholar.
+scholar_action: Open Google Scholar
+search_placeholder: Filter publications by title, author, venue, or year
+theses_heading: Theses
+theses:
+  - text: >-
+      **Hao Zhang**. *Fast and Efficient Networks for Small Object Detection* [D]. Nanchang University, 2020.
+      [HTML](https://kns.cnki.net/KCMS/detail/detail.aspx?dbname=CMFD202101&filename=1020056234.nh)
+  - text: >-
+      **Hao Zhang**. *Intelligent Wireless Signal Recognition Method in Complex Electromagnetic Environment* [D].
+      Nanjing University of Aeronautics and Astronautics, 2025.
+    note: 2025 Excellent Doctoral Dissertation Award of the China Education Society of Electronics (CESE) 
+preprints_heading: Preprints
+preprints:
+  - text: >-
+      **Hao Zhang**, Chunyu Liu, Fuhui Zhou, and Qihui Wu. “Spectrum Foundation Model: A New Paradigm Towards General
+      Spectrum Cognition and Decision,” submitted to IEEE (under review).
+journals_heading: Journal Papers
+conferences_heading: Conference Proceedings

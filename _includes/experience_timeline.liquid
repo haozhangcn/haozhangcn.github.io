@@ -1,0 +1,35 @@
+{% assign profile = site.data[site.active_lang].profile %}
+{% if profile.experience %}
+  <section class="about-section experience-section" aria-labelledby="experience-heading">
+    <h2 id="experience-heading">{{ profile.experience_heading }}</h2>
+    <ol class="experience-timeline">
+      {% for item in profile.experience %}
+        <li class="experience-item">
+          <a
+            class="experience-mark{% if item.logo_class %} experience-mark--{{ item.logo_class }}{% endif %}"
+            href="{{ item.url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="{{ item.institution }}"
+          >
+            <span class="experience-mark-viewport">
+              <img
+                src="{{ item.logo | prepend: '/assets/img/institutions/' | relative_url }}"
+                alt="{{ item.logo_alt }}"
+                loading="lazy"
+              >
+            </span>
+          </a>
+          <p class="experience-period">{{ item.period }}</p>
+          <div class="experience-copy">
+            <h3>{{ item.role }}</h3>
+            <p>
+              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a>
+              <span class="experience-location">{{ item.location }}</span>
+            </p>
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endif %}
