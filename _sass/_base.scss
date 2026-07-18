@@ -1737,8 +1737,9 @@ figure.cover {
   border-top: 1px solid var(--global-soft-border-color);
   border-radius: 0;
   box-shadow: none;
-  max-width: 72ch;
+  max-width: none;
   padding: 1.35rem 0 0;
+  width: 100%;
 }
 
 .about-kicker {
@@ -2083,6 +2084,24 @@ html[lang^="zh"] .about-summary {
     flex: 0 0 auto;
     height: 0.82em;
     width: 4px;
+  }
+}
+
+.project-detail-page .page-content {
+  > p,
+  > ul > li,
+  > ol > li {
+    hyphens: auto;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+html[lang^="zh"] .project-detail-page .page-content {
+  > p,
+  > ul > li,
+  > ol > li {
+    text-justify: inter-character;
   }
 }
 
@@ -2794,6 +2813,15 @@ footer.sticky-bottom {
 
   .standard-page .page-hero .post-title {
     font-size: 2rem;
+  }
+
+  .project-detail-page .page-content {
+    > p,
+    > ul > li,
+    > ol > li {
+      hyphens: none;
+      text-align: left;
+    }
   }
 
   .scholar-callout {

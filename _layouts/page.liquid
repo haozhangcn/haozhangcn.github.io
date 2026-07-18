@@ -8,7 +8,7 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post standard-page">
+<div class="post standard-page{% if page.collection == 'projects' %} project-detail-page{% endif %}">
   <header class="post-header page-hero">
     <span class="page-hero-accent" aria-hidden="true"></span>
     <h1 class="post-title">{{ page.title }}</h1>
