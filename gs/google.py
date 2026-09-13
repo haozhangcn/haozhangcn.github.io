@@ -1,70 +1,84 @@
-from scholarly import scholarly, ProxyGenerator
-import jsonpickle
 import json
-from datetime import datetime
 import os
 import time
+from datetime import datetime, timezone
 
-max_attempts = 100
-wait_seconds = 600  # 10 minutes
-
-for attempt in range(1, max_attempts + 1):
-    try:
-        print(f"Attempt {attempt}:")
-        # Setup proxy
-        pg = ProxyGenerator()
-        pg.FreeProxies()  # Use free rotating proxies
-        scholarly.use_proxy(pg)
-        
-        author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-        scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-        print(f"Attempt {attempt} success")
-        break  # Exit loop on first success
-    except Exception as e:
-        print(f"Attempt {attempt} failed with error: {e}")
-        time.sleep(wait_seconds)
-else:
-    print("All 100 attempts failed.")
+from scholarly import ProxyGenerator, scholarly
 
 
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
-author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']:v for v in author['publications']}
-print(json.dumps(author, indent=2))
+MAX_ATTEMPTS = 10
+WAIT_SECONDS = 120
+AUTHOR_SECTIONS = ["basics", "indices", "counts", "publications"]
 
-os.makedirs('results', exist_ok=True)
 
-with open(f'results/gs.json', 'w') as outfile:
-    json.dump(author, outfile, ensure_ascii=False)
+def fetch_author():
+    scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
+    last_error = None
 
-citation_data = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['citedby']}",
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            print(f"Attempt {attempt}/{MAX_ATTEMPTS}", flush=True)
+
+            proxy = ProxyGenerator()
+            proxy.FreeProxies()
+            scholarly.use_proxy(proxy)
+
+            author = scholarly.search_author_id(scholar_id)
+            author = scholarly.fill(author, sections=AUTHOR_SECTIONS)
+            print(f"Attempt {attempt} succeeded", flush=True)
+            return author
+        except Exception as error:
+            last_error = error
+            print(f"Attempt {attempt} failed: {error!r}", flush=True)
+            if attempt < MAX_ATTEMPTS:
+                time.sleep(WAIT_SECONDS)
+
+    raise RuntimeError(
+        f"Unable to fetch Google Scholar data after {MAX_ATTEMPTS} attempts"
+    ) from last_error
+
+
+def write_json(path, data):
+    with open(path, "w", encoding="utf-8") as output:
+        json.dump(data, output, ensure_ascii=False)
+
+
+author = fetch_author()
+author["updated"] = datetime.now(timezone.utc).isoformat()
+author["publications"] = {
+    publication["author_pub_id"]: publication
+    for publication in author["publications"]
 }
-with open(f'results/citation.json', 'w') as outfile:
-    json.dump(citation_data, outfile, ensure_ascii=False)
+print(json.dumps(author, indent=2, ensure_ascii=False))
 
-h_data = {
-  "schemaVersion": 1,
-  "label": "hindex",
-  "message": f"{author['hindex']}",
-}
-with open(f'results/h.json', 'w') as outfile:
-    json.dump(h_data, outfile, ensure_ascii=False)
+os.makedirs("results/pubs", exist_ok=True)
 
-# generated citations for publications
-os.makedirs('results/pubs/', exist_ok=True)
+write_json("results/gs.json", author)
+write_json(
+    "results/citation.json",
+    {
+        "schemaVersion": 1,
+        "label": "citations",
+        "message": str(author["citedby"]),
+    },
+)
+write_json(
+    "results/h.json",
+    {
+        "schemaVersion": 1,
+        "label": "hindex",
+        "message": str(author["hindex"]),
+    },
+)
 
-for pub in author['publications']:
-    citation_data = {
-      "schemaVersion": 1,
-      "label": "citations",
-      "message": f"{author['publications'][pub]['num_citations']}",
-    }
-    name = author['publications'][pub]['author_pub_id']
-    print(name)
-    with open(f'results/pubs/' + name + '.json', 'w') as outfile:
-        json.dump(citation_data, outfile, ensure_ascii=False)
+for publication in author["publications"].values():
+    publication_id = publication["author_pub_id"]
+    print(publication_id)
+    write_json(
+        f"results/pubs/{publication_id}.json",
+        {
+            "schemaVersion": 1,
+            "label": "citations",
+            "message": str(publication["num_citations"]),
+        },
+    )
