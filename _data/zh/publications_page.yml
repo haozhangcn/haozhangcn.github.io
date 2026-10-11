@@ -12,6 +12,10 @@ theses:
 preprints_heading: 预印本
 preprints:
   - text: >-
+      **Hao Zhang**, Dongfang Xu, Hang Zou, Anis Bara, Brahim Mefgouda, Lina Bariah, Yuzhi Yang, Fuhui Zhou, Qihui Wu,
+      and Merouane Debbah. “RF-Agent: Hierarchical Language-Agent Control for Instruction-Conditioned Active Spectrum
+      Sensing,” arXiv preprint arXiv:2610.05485, 2026. [arXiv](https://arxiv.org/abs/2610.05485)
+  - text: >-
       **Hao Zhang**, Chunyu Liu, Fuhui Zhou, and Qihui Wu. “Spectrum Foundation Model: A New Paradigm Towards General
       Spectrum Cognition and Decision,” submitted to IEEE (under review).
 journals_heading: 期刊论文
