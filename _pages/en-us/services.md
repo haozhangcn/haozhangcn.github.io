@@ -9,13 +9,16 @@ nav_order: 6
 ---
 
 ### Members
-- [IEEE](https://www.ieee.org/ )
+
+- [IEEE](https://www.ieee.org/)
 - [CCF](https://www.ccf.org.cn)
 - [IEEE ComSoc](https://www.comsoc.org)
 - [CAAI](https://www.caai.cn/)
 
 ### Journal Reviewers
+
 I serve as reviewers for multiple disciplines, including AI, wireless communications, geoscience, food science, etc.
+
 - IEEE Journal on Selected Areas in Communications (IEEE JSAC)
 - IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE JSTARS)
@@ -44,6 +47,7 @@ I serve as reviewers for multiple disciplines, including AI, wireless communicat
 - Applied Sciences
 
 ### Conference TPCs and Reviewers
+
 - TPC member of IEEE ICC 2026-SACccn
 - TPC member of IEEE ICC 2025-SAC-02 CCNS track
 - TPC member of CITIC 2024/2025
@@ -53,6 +57,7 @@ I serve as reviewers for multiple disciplines, including AI, wireless communicat
 - IEEE VTC2022-Fall
 
 ## Awards and Honors
+
 - Excellent Doctoral Dissertation Award of China Education Society of Electronics (CESE), Dec 2025.
 - Chinese Government Scholarship, Chinese Scholarship Council (CSC), Jul 2023.
 - Top-notch Postgraduate Innovative Talents Training “Yinhang Project”, May 2022.

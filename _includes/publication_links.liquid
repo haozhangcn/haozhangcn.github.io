@@ -8,7 +8,9 @@
   {% if include.interactive and entry.award %}
     <a class="publication-link award" role="button" title="Show award details" aria-label="Show award details">
       <i class="fas fa-award" aria-hidden="true"></i>
-      <span>{% if entry.award_name %}{{ entry.award_name }}{% else %}Award{% endif %}</span>
+      <span>
+        {%- if entry.award_name %}{{ entry.award_name }}{% else %}Award{% endif -%}
+      </span>
     </a>
   {% endif %}
   {% if include.interactive and entry.abstract %}

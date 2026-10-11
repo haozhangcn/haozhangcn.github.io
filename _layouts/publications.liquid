@@ -9,7 +9,8 @@ layout: page
     <p>{{ publication_page.scholar_prompt }}</p>
   </div>
   <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">
-    {{ publication_page.scholar_action }} <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+    {{ publication_page.scholar_action }}
+    <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
   </a>
 </aside>
 
@@ -19,7 +20,9 @@ layout: page
     {% for thesis in publication_page.theses %}
       <li>
         {{ thesis.text | markdownify }}
-        {% if thesis.note %}<span class="publication-note">{{ thesis.note }}</span>{% endif %}
+        {% if thesis.note -%}
+          <span class="publication-note">{{ thesis.note }}</span>
+        {%- endif %}
       </li>
     {% endfor %}
   </ol>

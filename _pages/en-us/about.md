@@ -3,8 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: 
-
+subtitle:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page

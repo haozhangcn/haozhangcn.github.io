@@ -1,6 +1,11 @@
 {% assign profile = site.data[site.active_lang].profile %}
 <span class="scholar-inline-metrics" aria-label="{{ profile.metrics.aria_label }}">
-  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer" title="{{ profile.metrics.citations }}">
+  <a
+    href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="{{ profile.metrics.citations }}"
+  >
     <img
       src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://cdn.jsdelivr.net/gh/haozhangcn/haozhangcn.github.io@gs/citation.json&amp;labelColor=edf5f7&amp;color=137f98&amp;style=flat-square&amp;label=citations"
       alt="{{ profile.metrics.citations }}"
@@ -14,7 +19,12 @@
       loading="lazy"
     >
   </a>
-  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer" title="{{ profile.metrics.h_index }}">
+  <a
+    href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="{{ profile.metrics.h_index }}"
+  >
     <img
       src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhaozhangcn%2Fhaozhangcn.github.io@gs%2Fh.json&amp;labelColor=edf5f7&amp;color=137f98&amp;style=flat-square&amp;label=H-index"
       alt="{{ profile.metrics.h_index }}"

@@ -44,7 +44,12 @@ table {
   hyphens: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-weight: bold;
@@ -777,7 +782,7 @@ footer.sticky-bottom {
       position: relative;
       counter-increment: pub-counter; // 正向递增
       order: 1; // 确保顺序
-      
+
       &::before {
         content: counter(pub-counter) ".";
         position: absolute;
@@ -940,28 +945,27 @@ footer.sticky-bottom {
   }
 }
 
-// selected 
+// selected
 .selected {
   // .publications
   @extend .publications;
 
-  // override ol 
+  // override ol
   ol {
     list-style: none;
     padding-left: 20px;
     margin-top: 1rem;
-    
+
     // 移除序号显示
     li {
       &::before {
         display: none !important; // 隐藏序号
       }
-      
+
       margin-left: 0; // 移除左边距，因为没有序号了
     }
   }
 }
-
 
 // Rouge Color Customization
 figure.highlight {
@@ -1699,7 +1703,10 @@ figure.cover {
     font-size: 1.05rem;
     height: 38px;
     justify-content: center;
-    transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    transition:
+      border-color 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease;
     width: 38px;
 
     &:hover {
@@ -1838,7 +1845,10 @@ html[lang^="zh"] .about-summary {
   font-size: 0.78rem;
   font-weight: 600;
   padding: 0.48rem 0.85rem;
-  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 
   &:hover {
     border-color: var(--global-theme-color);
@@ -2131,7 +2141,10 @@ html[lang^="zh"] .project-detail-page .page-content {
   min-height: 0;
   overflow: hidden;
   position: relative;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 
   &::before {
     content: none;
@@ -2296,7 +2309,9 @@ html[lang^="zh"] .project-detail-page .page-content {
   display: flex;
   margin: 2rem 0 0.75rem;
   padding: 0 0.85rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:focus-within {
     border-color: var(--global-theme-color);
@@ -2374,7 +2389,9 @@ html[lang^="zh"] .project-detail-page .page-content {
   line-height: 1.5;
   padding: 0.08rem 0;
   text-decoration: none;
-  transition: color 0.18s ease, transform 0.18s ease;
+  transition:
+    color 0.18s ease,
+    transform 0.18s ease;
 
   i {
     color: var(--global-theme-color);

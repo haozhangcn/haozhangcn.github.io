@@ -1,0 +1,13 @@
+# Sites that reject automated link checkers (403/405) or have broken TLS.
+# The links themselves work in a browser.
+https://doi.org/10.1680/
+https://www.emerald.com/
+https://www.icevirtuallibrary.com/
+https://dr.ntu.edu.sg/
+https://kns.cnki.net/
+https://stackoverflow.com/
+http://www.intmath.com/
+http://www.reddit.com/
+https://www.reddit.com/
+https://www.researchgate.net/
+https://beian.miit.gov.cn/

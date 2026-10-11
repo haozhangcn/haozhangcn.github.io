@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: 关于
 permalink: /
-subtitle: 
+subtitle:
 
 announcements:
   enabled: true # includes a list of news items

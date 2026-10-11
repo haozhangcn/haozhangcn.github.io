@@ -17,22 +17,41 @@
         {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
           {% assign author_is_self = true %}
         {% endif %}
-        {%- if forloop.first == false -%}{% if forloop.last %} {{ site.data[site.active_lang].strings.bibliography.last_author_prefix }} {% else %}, {% endif %}{%- endif -%}
-        {%- if author_is_self -%}
-          <strong>{{ author.first }} {{ author_last_html }}</strong>
-        {%- else -%}
-          {{ author.first }} {{ author_last_html }}
+        {%- if forloop.first == false -%}
+          {% if forloop.last %} {{ site.data[site.active_lang].strings.bibliography.last_author_prefix }} {% else %}, {% endif %}
         {%- endif -%}
-      {%- endfor -%}.
+        {%- if author_is_self -%}
+          <strong>
+            {{- author.first }}
+            {{ author_last_html -}}
+          </strong>
+        {%- else -%}
+          {{ author.first }}
+          {{ author_last_html }}
+        {%- endif -%}
+      {%- endfor -%}
+      .
     </span>
 
     <span class="compact-publication-title">
-      “{% if entry.doi %}<a href="{{ doi_url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>{% elsif entry.html %}<a href="{{ entry.html }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}.”
+      “
+      {%- if entry.doi -%}
+        <a href="{{ doi_url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+      {%- elsif entry.html -%}
+        <a href="{{ entry.html }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+      {%- else -%}
+        {{- entry.title -}}
+      {%- endif -%}
+      .”
     </span>
 
     <span class="compact-publication-citation">
-      {% if entry.type == 'article' and entry.journal %}<em>{{ entry.journal }}</em>{% endif %}
-      {% if entry.type == 'inproceedings' and entry.booktitle %}<em>In {{ entry.booktitle }}</em>{% endif %}
+      {% if entry.type == 'article' and entry.journal -%}
+        <em>{{ entry.journal }}</em>
+      {%- endif %}
+      {% if entry.type == 'inproceedings' and entry.booktitle -%}
+        <em>In {{ entry.booktitle }}</em>
+      {%- endif %}
       {% if entry.volume != blank %}, vol. {{ entry.volume }}{% endif %}
       {% if entry.number != blank %}, no. {{ entry.number }}{% endif %}
       {% if entry.pages != blank %}, pp. {{ entry.pages }}{% endif %}

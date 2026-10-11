@@ -8,8 +8,12 @@
     {% endunless %}
   {% endif %}
   <div class="home-publication-marker" aria-hidden="true">
-    {% if entry.year %}<span class="home-publication-year">{{ entry.year }}</span>{% endif %}
-    {% if entry.abbr %}<span class="home-publication-venue">{{ entry.abbr }}</span>{% endif %}
+    {% if entry.year -%}
+      <span class="home-publication-year">{{ entry.year }}</span>
+    {%- endif %}
+    {% if entry.abbr -%}
+      <span class="home-publication-venue">{{ entry.abbr }}</span>
+    {%- endif %}
   </div>
 
   <div class="home-publication-body" id="{{ entry.key }}">
@@ -31,21 +35,37 @@
         {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
           {% assign author_is_self = true %}
         {% endif %}
-        {%- if forloop.first == false -%}{% if forloop.last %} {{ site.data[site.active_lang].strings.bibliography.last_author_prefix }} {% else %}, {% endif %}{%- endif -%}
+        {%- if forloop.first == false -%}
+          {% if forloop.last %} {{ site.data[site.active_lang].strings.bibliography.last_author_prefix }} {% else %}, {% endif %}
+        {%- endif -%}
         {%- if author_is_self -%}
-          <strong>{{ author.first }} {{ author_last_html }}</strong>
+          <strong>
+            {{- author.first }}
+            {{ author_last_html -}}
+          </strong>
         {%- else -%}
-          {{ author.first }} {{ author_last_html }}
+          {{ author.first }}
+          {{ author_last_html }}
         {%- endif -%}
       {%- endfor -%}
     </p>
 
     <p class="home-publication-meta">
-      {% if entry.type == 'article' and entry.journal %}<em>{{ entry.journal }}</em>{% endif %}
-      {% if entry.type == 'inproceedings' and entry.booktitle %}<em>{{ entry.booktitle }}</em>{% endif %}
-      {% if entry.volume != blank %}<span>vol. {{ entry.volume }}</span>{% endif %}
-      {% if entry.number != blank %}<span>no. {{ entry.number }}</span>{% endif %}
-      {% if entry.pages != blank %}<span>pp. {{ entry.pages }}</span>{% endif %}
+      {% if entry.type == 'article' and entry.journal -%}
+        <em>{{ entry.journal }}</em>
+      {%- endif %}
+      {% if entry.type == 'inproceedings' and entry.booktitle -%}
+        <em>{{ entry.booktitle }}</em>
+      {%- endif %}
+      {% if entry.volume != blank -%}
+        <span>vol. {{ entry.volume }}</span>
+      {%- endif %}
+      {% if entry.number != blank -%}
+        <span>no. {{ entry.number }}</span>
+      {%- endif %}
+      {% if entry.pages != blank -%}
+        <span>pp. {{ entry.pages }}</span>
+      {%- endif %}
     </p>
 
     {% include publication_links.liquid %}

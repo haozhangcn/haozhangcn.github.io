@@ -7,14 +7,18 @@ description: 专业组织、期刊审稿、会议服务及个人荣誉。
 nav: true
 nav_order: 6
 ---
+
 ### 组织会员
-- [IEEE](https://www.ieee.org/ )
+
+- [IEEE](https://www.ieee.org/)
 - [CCF](https://www.ccf.org.cn)
 - [IEEE ComSoc](https://www.comsoc.org)
 - [CAAI](https://www.caai.cn/)
 
 ### 期刊审稿
+
 作为多个学科的期刊审稿人：人工智能、通信、地球科学、食品科学等
+
 - IEEE Journal on Selected Areas in Communications (IEEE JSAC)
 - IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE JSTARS)
@@ -43,6 +47,7 @@ nav_order: 6
 - Applied Sciences
 
 ### 会议技术委员会/审稿人
+
 - TPC member of IEEE ICC 2026-SACccn
 - TPC member of IEEE ICC 2025-SAC-02 CCNS track
 - TPC member of CITIC 2024/2025
@@ -52,6 +57,7 @@ nav_order: 6
 - IEEE VTC2022-Fall
 
 ## 个人荣誉
+
 - 2025.12，**中国电子教育学会（CESE）优秀博士学位论文奖**
 - 2023.07，中国政府奖学金，国家留学基金委（CSC）
 - 2022.05，南京航空航天大学拔尖研究生创新人才培养“引航计划”

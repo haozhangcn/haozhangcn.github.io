@@ -11,7 +11,9 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    {% if page.subtitle %}<p class="desc">{{ page.subtitle }}</p>{% endif %}
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   <article>
@@ -44,7 +46,9 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <section class="about-section news-section">
-        <h2><a class="section-heading-link" href="{{ '/news/' | relative_url }}">{{ site.data[site.active_lang].strings.news }}</a></h2>
+        <h2>
+          <a class="section-heading-link" href="{{ '/news/' | relative_url }}">{{ site.data[site.active_lang].strings.news }}</a>
+        </h2>
         {% include news.liquid limit=true %}
       </section>
     {% endif %}
@@ -52,7 +56,9 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <section class="about-section latest-section">
-        <h2><a class="section-heading-link" href="{{ '/blog/' | relative_url }}">{{ site.data[site.active_lang].strings.latest_posts }}</a></h2>
+        <h2>
+          <a class="section-heading-link" href="{{ '/blog/' | relative_url }}">{{ site.data[site.active_lang].strings.latest_posts }}</a>
+        </h2>
         {% include latest_posts.liquid %}
       </section>
     {% endif %}
@@ -60,7 +66,11 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <section class="about-section selected-section">
-        <h2><a class="section-heading-link" href="{{ '/publications/' | relative_url }}">{{ site.data[site.active_lang].strings.selected_publications }}</a></h2>
+        <h2>
+          <a class="section-heading-link" href="{{ '/publications/' | relative_url }}">
+            {{- site.data[site.active_lang].strings.selected_publications -}}
+          </a>
+        </h2>
         {% include selected_papers.liquid %}
       </section>
     {% endif %}

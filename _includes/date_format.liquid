@@ -18,7 +18,8 @@
 {%- elsif site.active_lang == 'pt-br' -%}
   {{ day }} de {{ month }}, {{ year }}
 {%- elsif site.active_lang == 'zh' -%}
-  {{ year }}年{{ month }}{{ day }}日
+  {{ year }}年{{ month -}}
+  {{- day }}日
 {%- else -%}
   {{ day }}
   {{ month }}

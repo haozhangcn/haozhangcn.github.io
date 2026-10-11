@@ -14,5 +14,3 @@ category: PI
 1. <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Naofal Al-Dhahir. “SSwsrNet: A Semi-Supervised Few-Shot Learning Framework for Wireless Signal Recognition.” IEEE Transactions on Communications, vol. 72, no. 9, pp. 5823-5836, doi: 10.1109/TCOMM.2024.3385921. [[HTML](http://doi.org/10.1109/TCOMM.2024.3385921)] [[Arxiv](https://arxiv.org/abs/2404.02467)]
 2. <u><b>Hao Zhang</b></u>, Hao Zhang, Fuhui Zhou, Qihui Wu, and Chau Yuen. "FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification." In 2024 16th International Conference on Wireless Communications and Signal Processing (WCSP), doi: 10.1109/WCSP62071.2024.10826902.
 3. <u><b>Hao Zhang</b></u>, Fuhui Zhou, Qihui Wu, and Chau Yuen. "FSOS-AMC: Few-Shot Open-Set Learning for Automatic Modulation Classification Over Multipath Fading Channels." IEEE Internet of Things Journal, vol. 12, no. 12, pp. 18718-18731, doi: 10.1109/JIOT.2025.3557973. [HTML](http://doi.org/10.1109/JIOT.2025.3557973) [arXiv](https://arxiv.org/abs/2410.10265)
-
-
