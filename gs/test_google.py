@@ -20,6 +20,56 @@ def success(command, **kwargs):
 
 
 class CitationTests(unittest.TestCase):
+    def setUp(self):
+        self.environment = patch.dict(os.environ, GOOGLE_SCHOLAR_PROXY="")
+        self.environment.start()
+        self.addCleanup(self.environment.stop)
+
+    def test_configured_proxy_is_first(self):
+        with patch.dict(os.environ, GOOGLE_SCHOLAR_PROXY="http://user:password@proxy:8080"), \
+             patch.object(google.subprocess, "run", side_effect=success) as run:
+            self.assertEqual(google.fetch_author("author"), AUTHOR)
+        self.assertEqual(run.call_args.args[0][-2], "configured-proxy")
+        self.assertNotIn("password", str(run.call_args.args[0]))
+
+    def test_configured_proxy_failure_falls_back(self):
+        calls = []
+        def run(command, **kwargs):
+            calls.append(command[-2])
+            if len(calls) == 1:
+                raise subprocess.CalledProcessError(1, command)
+            success(command)
+        with patch.dict(os.environ, GOOGLE_SCHOLAR_PROXY="http://proxy:8080"), \
+             patch.object(google.subprocess, "run", side_effect=run), patch.object(google.time, "sleep"):
+            self.assertEqual(google.fetch_author("author"), AUTHOR)
+        self.assertEqual(calls, ["configured-proxy", "direct"])
+
+    def test_configured_proxy_routes_both_connections(self):
+        client, proxy = Mock(), Mock()
+        client.fill.return_value = copy.deepcopy(AUTHOR)
+        module = types.SimpleNamespace(scholarly=client, ProxyGenerator=Mock(return_value=proxy))
+        with patch.dict(sys.modules, scholarly=module), \
+             patch.dict(os.environ, GOOGLE_SCHOLAR_PROXY="http://proxy:8080"), \
+             patch.object(google.logging, "getLogger"):
+            self.assertEqual(google.fetch_once("configured-proxy", "author"), AUTHOR)
+        proxy.SingleProxy.assert_called_once_with(http="http://proxy:8080", https="http://proxy:8080")
+        client.use_proxy.assert_called_once_with(proxy, proxy)
+        proxy.FreeProxies.assert_not_called()
+
+    def test_configured_proxy_errors_do_not_leak_credentials(self):
+        import traceback
+        with patch.dict(os.environ, GOOGLE_SCHOLAR_ID="author"), \
+             patch.object(sys, "argv", ["google.py", "--worker", "configured-proxy", "unused.json"]), \
+             patch.object(google, "fetch_once", side_effect=ValueError("http://user:secret@proxy:8080")):
+            try:
+                google.main()
+            except RuntimeError:
+                error = traceback.format_exc()
+            else:
+                self.fail("Expected a failure")
+        self.assertNotIn("user:secret", error)
+        self.assertIn("check proxy connectivity", error)
+
     def test_direct_success_does_not_retry(self):
         with patch.object(google.subprocess, "run", side_effect=success) as run:
             self.assertEqual(google.fetch_author("author"), AUTHOR)

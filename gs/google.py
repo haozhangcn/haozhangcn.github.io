@@ -1,5 +1,6 @@
 """Fetch citation data without making free-proxy availability a prerequisite."""
 import json
+import logging
 import os
 from pathlib import Path
 import re
@@ -39,7 +40,15 @@ def fetch_once(mode, scholar_id):
     # Import only in the worker: each attempt gets fresh scholarly sessions.
     from scholarly import ProxyGenerator, scholarly
 
+    if mode == "configured-proxy":
+        # scholarly logs proxy URLs, which may contain credentials.
+        logging.getLogger("scholarly").disabled = True
     proxy = ProxyGenerator()
+    if mode == "configured-proxy":
+        print("Stage: initialize configured proxy", flush=True)
+        url = os.environ["GOOGLE_SCHOLAR_PROXY"].strip()
+        if not proxy.SingleProxy(http=url, https=url):
+            raise RuntimeError("Configured proxy could not be initialized")
     if mode == "free-proxy":
         print("Stage: initialize free proxy", flush=True)
         if not proxy.FreeProxies(timeout=1, wait_time=10):
@@ -57,8 +66,10 @@ def fetch_once(mode, scholar_id):
 
 def fetch_author(scholar_id):
     errors = []
-    for attempt, mode in enumerate(ATTEMPT_MODES, 1):
-        print(f"Attempt {attempt}/{len(ATTEMPT_MODES)} ({mode})", flush=True)
+    modes = (("configured-proxy", "direct", "free-proxy")
+             if os.environ.get("GOOGLE_SCHOLAR_PROXY", "").strip() else ATTEMPT_MODES)
+    for attempt, mode in enumerate(modes, 1):
+        print(f"Attempt {attempt}/{len(modes)} ({mode})", flush=True)
         # scholarly can loop on 403/CAPTCHA despite set_retries(). A separate
         # process imposes a wall-clock limit, including proxy discovery.
         with tempfile.TemporaryDirectory() as tmp:
@@ -78,7 +89,7 @@ def fetch_author(scholar_id):
                 detail = f"{mode}: {type(error).__name__}: {error}"
                 errors.append(detail)
                 print(f"Attempt {attempt} failed: {detail}", flush=True)
-        if attempt < len(ATTEMPT_MODES):
+        if attempt < len(modes):
             time.sleep(WAIT_SECONDS)
     raise RuntimeError("Google Scholar fetch failed; existing published data is unchanged. "
                        + " | ".join(errors))
@@ -110,7 +121,16 @@ def main():
     if not scholar_id:
         raise ValueError("GOOGLE_SCHOLAR_ID must be configured")
     if len(sys.argv) > 1 and sys.argv[1] == "--worker":
-        write_json(Path(sys.argv[3]), fetch_once(sys.argv[2], scholar_id))
+        mode = sys.argv[2]
+        try:
+            author = fetch_once(mode, scholar_id)
+        except Exception:
+            if mode == "configured-proxy":
+                # Do not expose credential-bearing URLs from third-party errors.
+                raise RuntimeError("Configured proxy could not fetch Scholar data; "
+                                   "check proxy connectivity and credentials") from None
+            raise
+        write_json(Path(sys.argv[3]), author)
     else:
         write_results(fetch_author(scholar_id), Path("results"))
 
