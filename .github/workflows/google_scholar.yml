@@ -2,6 +2,14 @@ name: Citation
 
 on:
   page_build:
+  push:
+    paths:
+      - "gs/**"
+      - ".github/workflows/google_scholar.yml"
+  pull_request:
+    paths:
+      - "gs/**"
+      - ".github/workflows/google_scholar.yml"
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -10,13 +18,27 @@ permissions:
   contents: write
 
 concurrency:
-  group: citation
+  group: citation-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Test citation updater
+        run: python -m unittest discover -s gs -v
+
+  build:
+    needs: test
+    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
@@ -40,8 +62,10 @@ jobs:
         run: python google.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          GOOGLE_SCHOLAR_PROXY: ${{ secrets.GOOGLE_SCHOLAR_PROXY }}
 
       - name: Publish citation data
+        if: github.ref == 'refs/heads/main'
         working-directory: gs/results
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -54,3 +78,4 @@ jobs:
           git commit -m "Updated Citation Data"
           remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push "${remote_repo}" HEAD:gs --force
+
